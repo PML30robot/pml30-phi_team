@@ -1,13 +1,60 @@
 \documentclass[12pt]{article}
 \usepackage{ucs}
 \usepackage{graphicx}
+\usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc} 
-\usepackage[russian]{babel}  
+\usepackage[russian]{babel}
+ 
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float} 
+
+\usepackage{geometry}
+\geometry{left=2cm}
+\geometry{right=1.5cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm} 
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[C]{PML30 Saint-Petersburg}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[C]{Россия, Санкт-Петербург, Физико-математический Лицей №30 2014-2015}
+
+\fancypagestyle{titlestyle}
+{
+  \fancyhead{}
+  \fancyfoot{}
+  \renewcommand{\footrulewidth}{0.0 mm}
+  \renewcommand{\headrulewidth}{0.0 mm}
+}
+
 \title{ Техническая книга, ФМЛ №30, команда ${\varphi}$}
 \begin{document}
-	\begin{center}
-\large Техническая книга, ФМЛ №30, команда ${\varphi}$
-	\end{center}
+\thispagestyle{titlestyle}
+		\begin{titlepage}
+			\newpage
+			
+			\begin{center}
+				\Large \textit{Центр робототехники\\
+					Физико-Математический Лицей №30}
+				
+				\vspace{8em}
+				
+				\Large {Техническая книга\\
+					Соревнований First FTC}
+				
+				\vspace{4em}
+				
+				Команда\\
+				PML30 (${\varphi}$)
+				
+			\end{center}
+			
+		\end{titlepage}
+		
+		\newpage
         \large Состав команды
 	\begin{flushleft}
 		\emph{Капитан: Фокин Иван,}
@@ -21,9 +68,13 @@
 		\emph{Крылов Георгий Андреевич,}
 		\emph{Лузин Дмитрий Валерьевич,}
 		\emph{Лузина Екатерина Павловна,}
-	\end{flushleft}		
+	\end{flushleft}	
+	
+		
 	\newpage
 	\tableofcontents{}
+	
+	
 	\newpage
 	\section{Инженерный раздел}
 	\subsection{Концепция робота}
