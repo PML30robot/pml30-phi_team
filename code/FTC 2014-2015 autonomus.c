@@ -5,8 +5,8 @@
 #pragma config(Motor,  mtr_S1_C1_2,     BR,            tmotorTetrix, openLoop, encoder)
 #pragma config(Motor,  mtr_S1_C2_1,     FL,            tmotorTetrix, openLoop, encoder)
 #pragma config(Motor,  mtr_S1_C2_2,     BL,            tmotorTetrix, openLoop, encoder)
-#pragma config(Motor,  mtr_S1_C4_1,     winch1,        tmotorTetrix, openLoop)
-#pragma config(Motor,  mtr_S1_C4_2,     winch2,        tmotorTetrix, openLoop)
+#pragma config(Motor,  mtr_S1_C4_1,     UR,        tmotorTetrix, openLoop)
+#pragma config(Motor,  mtr_S1_C4_2,     UL,        tmotorTetrix, openLoop)
 #pragma config(Servo,  srvo_S1_C3_1,    servoBall,            tServoContinuousRotation)
 #pragma config(Servo,  srvo_S1_C3_2,    servoTube,            tServoStandard)
 #pragma config(Servo,  srvo_S1_C3_3,    servo3,               tServoNone)
@@ -41,10 +41,10 @@ task tube ()
 
 task elevator()
 {
-	while(nMotorEncoder[winch1] < 1000)
+	while(nMotorEncoder[UL] < 14000)
 	{
-    motor[winch1] = 100;
-    motor[winch2] = -100;
+    motor[UR] = -100;
+    motor[UL] = 100;
   }
 }
 
@@ -92,7 +92,7 @@ task main()
     motor[BR] = 0;
     motor[FL] = 0;
     motor[BL] = 0;
-    motor[winch1] = 0;
-    motor[winch2] = 0;
+    motor[UR] = 0;
+    motor[UL] = 0;
   }
 }
