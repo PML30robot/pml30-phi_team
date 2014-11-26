@@ -17,14 +17,13 @@
 #include "JoystickDriver.c"
 
 int a = -64;
-//float  b = time1[T1];
 
 void Servosetup()
 {
-	servo[servoClaws] = 235;
+	//servo[servoClaws] = 235;
 	servo[servoBall] = 127;
-	servo[servoTube] = 140;
-	servo[servoMvClaws] = 165;
+	servo[servoTube] = 145;
+	servo[servoMvClaws] = 50;
 	nMotorEncoder[FR] = 0;
 	nMotorEncoder[FL] = 0;
 	nMotorEncoder[BR] = 0;
@@ -37,19 +36,19 @@ task Ball()
 {
 	while (true)
 	{
-   if(joy1Btn(2) > 0)
+   if(joy2Btn(2) > 0)
    {
      a = -a;
-     servo[servoBall] = 191 + a;
-     while (joy1Btn(2) > 0)
+     servo[servoBall] = 191 + a ;//* (1 - joy2Btn(2));
+     while (joy2Btn(2) > 0)
      	 wait1Msec(1);
    }
   }
 }
 
-task Claw()
+/*task Claw()
 {
-	int r = 50,start_val = ServoValue[servoClaws];
+	int r = 50,start_val = 35;
 	while (true)
 	{
   if (joy2Btn(5) == 1)
@@ -57,32 +56,30 @@ task Claw()
    if (joy2Btn(4) == 1)
   		servo[servoClaws] = start_val;
   }
-}
+}*/
 
 task MvClaw()
 {
-  int r1 = 50,start_val = ServoValue[servoMvClaws];
+  int clse = 18,opn = 50;
+  servo[servoMvClaws] = opn;
   while (true)
   {
   	if(joy1Btn(6) == 1)
-		servo[servoMvClaws] = r1;
+		servo[servoMvClaws] = clse;
     if(joy1Btn(7) == 1)
-  	servo[servoMvClaws] = start_val;
+  	servo[servoMvClaws] = opn;
   }
 }
 
 task tube ()
 {
-	int up;
-	int r2 = 7, start_val = ServoValue[servoTube];
+	int r2 = 8, start_val = 152;
 	while(true)
 	{
-    up = joystick.joy1_y1;
-  	if(up < -5)
+  	if(joystick.joy1_y1 < -5)
 	  	servo[servoTube] = start_val;
-    if(up > 5)
+    if(joystick.joy1_y1 > 5)
   	  servo[servoTube] = r2;
-    //if (up == 0)
   }
 }
 
@@ -97,17 +94,17 @@ task elevator()
 	}
 	else*/
 	//{
-		/*if(nMotorEncoder[UL] > 14000)
+		/*if(nMotorEncoder[UL] > 25000)
 	  {
 	  	motor[UR] = 100;
       motor[UL] = -100;
 	  }
 	  else
 	  {*/
-	    if(abs(joystick.joy1_y2) > 90 && nMotorEncoder[UL] < 14000)
+	    if(abs(joystick.joy1_y2) > 90 )
 	    {
-	    	motor[UR] = -70 * joystick.joy1_y2 / abs(joystick.joy1_y2);
-        motor[UL] = 70 * joystick.joy1_y2 / abs(joystick.joy1_y2);
+	    	motor[UR] = -100 * joystick.joy1_y2 / abs(joystick.joy1_y2);
+        motor[UL] = 100 * joystick.joy1_y2 / abs(joystick.joy1_y2);
 	    }
 	    else
 	    {
@@ -142,10 +139,10 @@ task  motion()
       }*/
 if(abs(joystick.joy2_y2 + joystick.joy2_x2) > 10 || abs(joystick.joy2_y2- joystick.joy2_x2) > 10)
 	{
-	  motor[FR] = (-joystick.joy2_y2 + joystick.joy2_x2) * 30 / 128;
-    motor[BR] = (-joystick.joy2_y2 + joystick.joy2_x2) * 30 / 128;
-    motor[FL] = (-joystick.joy2_y2 - joystick.joy2_x2) * 30 / 128;
-    motor[BL] = (-joystick.joy2_y2 - joystick.joy2_x2) * 30 / 128;
+	  motor[FR] = (-joystick.joy2_y2 + joystick.joy2_x2) * 20 / 128;
+    motor[BR] = (-joystick.joy2_y2 + joystick.joy2_x2) * 20 / 128;
+    motor[FL] = (-joystick.joy2_y2 - joystick.joy2_x2) * 20 / 128;
+    motor[BL] = (-joystick.joy2_y2 - joystick.joy2_x2) * 20 / 128;
   }
   if(abs(joystick.joy2_y1 + joystick.joy2_x1) <= 10 && abs(joystick.joy2_y1 - joystick.joy2_x1) <= 10 &&
   abs(joystick.joy2_y2 + joystick.joy2_x2) <= 10 && abs(joystick.joy2_y2- joystick.joy2_x2) <= 10)
@@ -165,7 +162,7 @@ task main()
   waitForStart();
 
   StartTask(MvClaw);
-  StartTask(Claw);
+ // StartTask(Claw);
 	StartTask(Ball);
 	StartTask(tube);
 	StartTask(motion);
