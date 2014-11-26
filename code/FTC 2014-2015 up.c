@@ -84,21 +84,21 @@ void elevator()
 {
 	int enc;
 	nMotorEncoder[UL] = 0;
-	while(nMotorEncoder[UL] < 25000)
+	while(nMotorEncoder[UL] < 12500)
 	{
     motor[UR] = -100;
     motor[UL] = 100;
     servo[servoTube] = 152;
     enc = nMotorEncoder[UL];
     //nxtDisplayBigTextLine(1, "%i", enc);
-    if(nMotorEncoder[UL] > 10000)
+    if(nMotorEncoder[UL] > 5000)
     	servo[servoBall] = 127;
   }
   motor[UR] = 0;
   motor[UL] = 0;
   servo[servoTube] = 152;
 
- 	while(nMotorEncoder[UL] > 17000)
+ 	while(nMotorEncoder[UL] > 8500)
 	{
     motor[UR] = 100;
     motor[UL] = -100;
