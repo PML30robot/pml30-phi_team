@@ -133,7 +133,7 @@ void motion(int l_ramp_goal, int a)
     motor[BL] = a * 20;
   }
   servo[servoMvClaws] = 18;
-  while(a * nMotorEncoder[BL] < l_ramp_goal + 2048)
+  while(a * nMotorEncoder[BL] < l_ramp_goal + 500)
   {
     motor[FR] = a * 20;
     motor[BR] = a * 20;
