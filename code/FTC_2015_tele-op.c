@@ -42,7 +42,7 @@ void Servosetup() // initialization of servos and motors
   motor[ULT] = 0;
 	servo[servoBall] = 230;
 	servo[servoBall2] = 0;
-	servo[servoTube] = 70;
+	servo[servoTube] = 80;
 	servo[servoMvClaws] = 70;
 	servo[servoMvClaws2] = 140;
 	servo[servoMvClaws3] = 263 - ServoValue[servoMvClaws];
@@ -85,20 +85,20 @@ task Ball() // control of gripper for balls
 
 task Ball_side()
 {
-	servo[servoBall2] = 170;
-	servo[servoBall] = 230 - servo[servoBall2];
+	servo[servoBall2] = 160;
+	servo[servoBall] = 210 - servo[servoBall2];
 	while (true)
 	{
-		servo[servoBall] = 230 - servo[servoBall2];
+		servo[servoBall] = 210 - servo[servoBall2];
 		if (joy1Btn(1) > 0)
 		{
-			servo[servoBall2] = 60;
-			servo[servoBall] = 230 - servo[servoBall2];
+			servo[servoBall2] = 35;
+			servo[servoBall] = 210 - servo[servoBall2];
 	  }
 		if (joy1Btn(3) > 0)
 		{
-			servo[servoBall2] = 170;
-			servo[servoBall] = 230 - servo[servoBall2];
+			servo[servoBall2] = 160;
+			servo[servoBall] = 210 - servo[servoBall2];
 	  }
 	}
 }
