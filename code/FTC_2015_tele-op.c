@@ -42,9 +42,9 @@ void Servosetup() // initialization of servos and motors
   motor[ULT] = 0;
 	servo[servoBall] = 230;
 	servo[servoBall2] = 0;
-	servo[servoTube] = 80;
+	servo[servoTube] = 87;
 	servo[servoMvClaws] = 70;
-	servo[servoMvClaws2] = 140;
+	servo[servoMvClaws2] = 100;
 	servo[servoMvClaws3] = 263 - ServoValue[servoMvClaws];
 	nMotorEncoder[FR] = 0;
 	nMotorEncoder[FL] = 0;
@@ -136,7 +136,7 @@ task MvClaw2() // control of additional gripper for rolling goals
 
 task tube () // control of mechanism overturning the bucket
 {
-	const unsigned char  r2 = 245, start_val = 80;
+	const unsigned char  r2 = 245, start_val = 87;
 	int state = 23;
 
 	while(true)
