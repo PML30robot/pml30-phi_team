@@ -264,7 +264,7 @@ void LR(int pow, float l_ramp_goal) // moving
 task main()
 {
 	 Servosetup();
-	 waitForStart()
+	 waitForStart();
    servo[servoMvClaws] = 55;
    servo[servoMvClaws3] = 261 - ServoValue[servoMvClaws];
    motion(9500, 1); // ride to the 60cm goal
