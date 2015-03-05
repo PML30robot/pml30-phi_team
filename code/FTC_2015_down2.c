@@ -100,32 +100,14 @@ void motion(const unsigned int l_ramp_goal, const byte a) // moving to rolling g
   //L_R(a * -100, a * -100, 1500);
   enc = nMotorEncoder[BL];
   nxtDisplayBigTextLine(1, "%i", enc);
-  /*if(a * nMotorEncoder[BL] < 10)
-  {
-  	while(true)
-  	{
-  		for (; pow >= 0; pow--)
-  		{
-        L_R(-pow, -pow, 5);
-        enc = nMotorEncoder[BL];
-        nxtDisplayBigTextLine(2, "%i", enc);
-      }
-  	}
-  }
- /* if (SensorValue[S3] == color)
-  {
-  	  nMotorEncoder[BR] = 0;
-    	nMotorEncoder[BL] = 0;*/
+
 	while(a * nMotorEncoder[BL] < l_ramp_goal - 4096)// * 1024 /(3.1415 * 10 ))// - 50)
 	{
     L_R(a * -100, a * -100, 1);
     enc = nMotorEncoder[BL];
     nxtDisplayBigTextLine(2, "%i", enc);
   }
-  /*for (int pow = a * 100; pow >= a * 20; pow--)
-  {
-  	L_R(-pow, -pow, 5);
-  }*/
+
   while(a * nMotorEncoder[BL] < l_ramp_goal)
 	{
     L_R(a * -20, a * -20, 1);
