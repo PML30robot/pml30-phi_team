@@ -22,8 +22,8 @@
 int OFF_POSITION = 0;
 const float KOEF_NEUTRAL_POZITION = 0.4;
 bool isPowerOff = true, isResetPowerInicializate = false;
-const ubyte faultStopMotor = 1;
-const ubyte waitTime = 60, TernSpeed = 50;
+const ubyte faultStopMotor = 2;
+const byte waitTime = 60, TernSpeed = 50;
 
 bool inicializate_resetPower(const bool requirement = false){
 	if (!isResetPowerInicializate || requirement){
@@ -33,8 +33,6 @@ bool inicializate_resetPower(const bool requirement = false){
 		motor[resetPowerMotor] = 0;
 		wait10Msec(2);
 		nMotorEncoder[resetPowerMotor] = 0;
-		oldEncoder = nMotorEncoder[resetPowerMotor];
-		hogCPU();
 		wait10Msec(2);
 
 		motor[resetPowerMotor] = -TernSpeed;
@@ -74,7 +72,6 @@ bool inicializate_resetPower(const bool requirement = false){
 
 		while (abs(nMotorEncoder[resetPowerMotor]) > OFF_POSITION * (1 - KOEF_NEUTRAL_POZITION));
 		motor[resetPowerMotor] = 0;
-		releaseCPU();
 	  PlaySound(soundDownwardTones);
 		wait10Msec(5);
 		// finish rotate motor to neutral position
@@ -91,7 +88,6 @@ bool OFF_power(const bool requirement = false){
 		int oldEncoder;
 
 		//start off power
-		hogCPU();
 		motor[resetPowerMotor] = TernSpeed;
 
 		do{
@@ -110,7 +106,6 @@ bool OFF_power(const bool requirement = false){
 		while (nMotorEncoder[resetPowerMotor] > OFF_POSITION * (1 - KOEF_NEUTRAL_POZITION));
 
 		motor[resetPowerMotor] = 0;
-		releaseCPU();
 		PlaySound(soundLowBuzz);
 		wait1Msec(waitTime);
 		// finish rotate motor to neutral position
@@ -126,13 +121,13 @@ bool ON_power(const bool requirement = false){
 		int oldEncoder;
 
 		//start on power
-		hogCPU();
 		motor[resetPowerMotor] = -TernSpeed;
 		wait1Msec(waitTime);
 
 		do{
 			oldEncoder = nMotorEncoder[resetPowerMotor];
 			wait1Msec(waitTime);
+			nxtDisplayBigTextLine(3, "%d", nMotorEncoder[resetPowerMotor] - oldEncoder);
 		}while(abs(nMotorEncoder[resetPowerMotor] - oldEncoder) > faultStopMotor);
 
 		wait1Msec(waitTime);
@@ -147,7 +142,6 @@ bool ON_power(const bool requirement = false){
 		while (nMotorEncoder[resetPowerMotor] < OFF_POSITION * KOEF_NEUTRAL_POZITION);
 
 		motor[resetPowerMotor] = 0;
-		releaseCPU();
 		wait1Msec(waitTime);
 		// finish rotate motor to neutral position
 
