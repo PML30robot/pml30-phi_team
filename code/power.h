@@ -1,8 +1,8 @@
 																///////////////////////////////////////
 																///// 				 Library 						/////
 																///// to controlling TETRIX power /////
-																/////         version 1.4					/////
-																/////				from 04.03.2015       /////
+																/////         version 1.5					/////
+																/////				from 12.03.2015       /////
 																/////															/////
 																/////    			created by					/////
 																/////				KRYLOV GEORGII				/////
@@ -12,8 +12,6 @@
 																///////////////////////////////////////
 
 #pragma once
-
-//#include "RobotClintrinsics.c" //-> to use "hogCPU()" and "releaseCPU()"
 
 #ifndef resetPowerMotor
 	#define resetPowerMotor 0
