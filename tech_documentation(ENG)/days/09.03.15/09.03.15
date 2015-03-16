@@ -1,0 +1,118 @@
+\subsubsection{09.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	16:00 - 23:00
+	\item Purposes of meeting:
+	\begin{enumerate}
+	  \item To solve the problem with NXT.
+	  
+	  \item To make the ramp for bucket.
+			  
+    \end{enumerate}
+   
+	\item Work that has been done:
+	\begin{enumerate}
+		 \item The problem with NXT was solwed.
+		 
+		 \item Programme of control robot was tested. Result is positive: button works without problems.
+		 
+		 \item It was found that when we turn on power robot doesn't work during the 1 second. So it was decided that we will not off power before autonomous period. 
+		 
+		 \item It was decided to change wheel base. We looked next variants.
+		 \begin{enumerate}
+			 \item To move the front motors with standard wheels to back part and install instead of them omni-wheels. Our robot will turn faster and we'll can increase width of gripper for balls.
+		 	
+			 \item To move front motors to the top of beam and connect the wheel by gears. We'll can increase width of gripper but we'll need disassemble less elements.
+		 	
+			 \item The same variant as the first but motors will fixed in the central part. They will connected with wheels by gears. We'll can to increase width of gripper, robot will turn faster and load on motor's shaft will reduced and reducers of motors will not break.
+			 
+			 \item Motors are installed on the central part and all wheels connected with them by gears. In this case we'll lose less traction than with the 3-nd variant.
+		 \end{enumerate}
+		 		        \begin{figure}[H]
+							\begin{minipage}[h]{0.2\linewidth}
+								\center  
+							\end{minipage}
+							\begin{minipage}[h]{0.6\linewidth}
+								\center{\includegraphics[scale=0.5]{days/09.03.15/images/07}}
+								\caption{Ideas for improvement wheels base}
+							\end{minipage}
+						\end{figure}		 
+		 
+		 \item It was found that motor controllers that fixed on the bottom doesn't allow to fix motors on the central part. So it was decided to move them on the another place.
+		 
+		 \item It was decided to fix the beam on MEL and install controllers on it.
+		 		 
+		 \item The beam was fixed and controllers were removed from the old place.
+		 		         \begin{figure}[H]
+		 		         	\begin{minipage}[h]{0.2\linewidth}
+		 		         		\center  
+		 		         	\end{minipage}
+		 		         	\begin{minipage}[h]{0.6\linewidth}
+		 		         		\center{\includegraphics[scale=0.12]{days/09.03.15/images/01}}
+		 		         		\caption{Mount for controllers (controllers wasn't fixed)}
+		 		         	\end{minipage}
+		 		         \end{figure}		 
+		 \item In addition MEL was strengthened by additional plate. Also this plate doesn't allow to wire get under the lift.
+		 		         \begin{figure}[H]
+		 		         	\begin{minipage}[h]{0.2\linewidth}
+		 		         		\center  
+		 		         	\end{minipage}
+		 		         	\begin{minipage}[h]{0.6\linewidth}
+		 		         		\center{\includegraphics[scale=0.07]{days/09.03.15/images/02}}
+		 		         		\caption{Plate on MEL}
+		 		         	\end{minipage}
+		 		         \end{figure}		 
+		 \item Today we got two powerful servos. One servo was installed on the MCB the second - on MOB. 	         				 		         	 		         	 		 		         		 		 
+		 		         \begin{figure}[H]
+		 		         	\begin{minipage}[h]{0.2\linewidth}
+		 		         		\center  
+		 		         	\end{minipage}
+		 		         	\begin{minipage}[h]{0.6\linewidth}
+		 		         		\center{\includegraphics[scale=0.07]{days/09.03.15/images/03}}
+		 		         		\caption{Servo on MCB}
+		 		         	\end{minipage}
+		 		         	\begin{minipage}[h]{0.6\linewidth}
+		 		         		\center{\includegraphics[scale=0.07]{days/09.03.15/images/04}}
+		 		         		\caption{Servo on MOB}
+		 		         	\end{minipage}		 		         	
+		 		         \end{figure}	
+		\item Also the gutter was fixed better so that it doesn't stagger.
+		 		         \begin{figure}[H]
+		 		         	\begin{minipage}[h]{0.2\linewidth}
+		 		         		\center  
+		 		         	\end{minipage}
+		 		         	\begin{minipage}[h]{0.6\linewidth}
+		 		         		\center{\includegraphics[scale=0.07]{days/09.03.15/images/05}}
+		 		         		\caption{Strenghtening plate}
+		 		         	\end{minipage}
+		 		         \end{figure}	
+		\item It was decided that driving wheels must be fixed on the same distance from center of gravity. Omni wheel must be fixed on the maximal distance from it because in this case we'll lose less traction. We should to estimate arrangement of center of grvity in Creo.
+		
+		\item It was estimated center of gravity of robot that we has now but didn't set up weight of handmade elements. It is under the slats. So we can not install omni wheels to the front part.
+		 		        \begin{figure}[H]
+							\begin{minipage}[h]{0.2\linewidth}
+								\center  
+							\end{minipage}
+							\begin{minipage}[h]{0.6\linewidth}
+								\center{\includegraphics[scale=0.5]{days/09.03.15/images/06}}
+								\caption{Center of gravity}
+							\end{minipage}
+						\end{figure}									        		
+	 		         	 			 		         
+    \end{enumerate}
+    
+	\item Result: 
+	\begin{enumerate}
+	  \item It was elaborated new wheel base.
+      
+    \end{enumerate}
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}
+		\item To fix controllers.
+		
+		\item To make Creo model of the new wheel base.
+    \end{enumerate}     
+\end{enumerate}
+\fillpage

@@ -1,15 +1,19 @@
-#include "power.h"
-#include "inicializate_motors.h"
+#pragma config(Hubs,  S1, HTMotor,  HTMotor,  HTMotor,  HTMotor)
+#pragma config(Motor,  mtr_S1_C3_1,     UL,            tmotorTetrix, openLoop, encoder)
+#pragma config(Motor,  mtr_S1_C3_2,     ULT,           tmotorTetrix, openLoop, encoder)
+#pragma config(Motor,  mtr_S1_C4_1,     UR,            tmotorTetrix, openLoop, encoder)
+#pragma config(Motor,  mtr_S1_C4_2,     URT,           tmotorTetrix, openLoop, encoder)
 
 task main()
 {
-	inicializete_motors();
-	inicializate_resetPower();
-	ON_power();
 
 	// right arrow = 1      left arrow = 2
 	nMotorEncoder[UL] = 0;
 	int enc;
+	motor[UR] = 0;
+  motor[UL] = 0;
+  motor[URT] = 0;
+  motor[ULT] = 0;
 
 	while(true)
 	{
@@ -38,5 +42,4 @@ task main()
 	 }
 	}
 
-	ON_power();
 }

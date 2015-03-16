@@ -1,0 +1,50 @@
+\subsubsection{12.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	16:00 - 21:30
+	\item Purposes of meeting:
+	\begin{enumerate}
+		\item To make Creo model of the MEL.			  
+			  
+    \end{enumerate}
+   
+
+	\item Work that has been done:
+	\begin{enumerate}
+		\item Creo model of the MEL was made.
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.2\linewidth}
+		 		        		\center  
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.25]{days/12.03.15/images/01}}
+		 		        		\caption{Creo model of the MEL}
+		 		        	\end{minipage}
+		 		        \end{figure}
+		\item MEL was fixed on the base of robot		 		        
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.2\linewidth}
+		 		        		\center  
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.25]{days/12.03.15/images/02}}
+		 		        		\caption{MEL on the base of robot}
+		 		        	\end{minipage}
+		 		        \end{figure}
+		\item It was made new wire for servos that moves MOB.		 		        		 		        			
+		 		         	 			 		         
+    \end{enumerate}
+    
+	\item Result: 
+	\begin{enumerate}
+	  \item MEL was assembled and fixed on the base of robot (in Creo).
+      
+    \end{enumerate}
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}
+		\item To elaborate new mount for controllers.
+    \end{enumerate}     
+\end{enumerate}
+\fillpage

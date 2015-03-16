@@ -1,0 +1,41 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Message Dialog: Info
+!               : Несохраненные данные могут быть утеряны.
+~ Power `UI Desktop` `UI Desktop` 4
+~ FocusIn `UI Message Dialog` `ok`
+~ Activate `UI Message Dialog` `UI Message Dialog`
+~ Activate `UI Message Dialog` `ok`
+~ Move `main_dlg_cur` `proe_win` 9 526 237 33554432 512 939 479 1366 768 9121836
+>M Chain_oa_sel_CB ProeWin0 526 237 40 20000 939 0 0 479 1366 0 0 768 13
+~ Command `ProCmdModelSave` 
+!%CIФайл A-CAPTURE_BALL3-MODULE сохранен.
+~ Move `main_dlg_cur` `proe_win` 9 526 237 0 0 939 479 1366 768 9124491
+>M Chain_oa_sel_CB ProeWin0 526 237 c0 0 939 0 0 479 1366 0 0 768 13
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+!Command ProCmdWinClose was pushed from the software.
+!%CIОсновное окно не может быть закрыто.
+< 0 0.596148 939 0 0 503 1366 0 0 768 13
+< 0 0.567704 939 0 0 479 1366 0 0 768 13
+~ Command `ProCmdModelSave` 
+!%CIФайл A-CAPTURE_BALL3_VANE сохранен.
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdWinOSCloseAsyn was pushed from the software.
+!Command ProCmdWinClose was pushed from the software.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 676 173 0 1 939 479 1366 768 9145097
+** 0.863746 0.636743 0 1 1
+0.863746 0.537252 L 0 0.567703704 0
+~ Move `main_dlg_cur` `proe_win` 9 676 173 0 1 939 479 1366 768 9145110
+~ Move `main_dlg_cur` `proe_win` 9 676 173 0 1 939 479 1366 768 9145140
+~ Move `main_dlg_cur` `proe_win` 9 676 173 0 1 939 479 1366 768 9145165
+~ Move `main_dlg_cur` `proe_win` 9 676 173 0 1 939 479 1366 768 9145192
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 676 173 0 0 939 479 1366 768 9145212
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : PTC Creo Parametric Student Edition (for educational use only)  будет остановлен и любая несохраненная работа будет утеряна.
+!               : Выйти?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File
