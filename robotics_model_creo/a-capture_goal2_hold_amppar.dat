@@ -16,67 +16,67 @@ PARAMETERS =
 {
   Name = MP_DENSITY
   Type = Real
-  Default = 0.000000e+00 g/cm^3
+  Default = 1.000000e-01 lbm/in^3
 },
 {
   Name = PRO_MP_ALT_VOLUME
   Type = Real
-  Default = 0.000000e+00 cm^3
+  Default = 2.755829e-01 in^3
 },
 {
   Name = PRO_MP_ALT_MASS
   Type = Real
-  Default = 3.200000e+02 g
+  Default = 0.000000e+00 lbm
 },
 {
   Name = PRO_MP_ALT_AREA
   Type = Real
-  Default = 0.000000e+00 cm^2
+  Default = 1.404313e+01 in^2
 },
 {
   Name = PRO_MP_ALT_COGX
   Type = Real
-  Default = 0.000000e+00 cm
+  Default = 2.440849e+00 in
 },
 {
   Name = PRO_MP_ALT_COGY
   Type = Real
-  Default = 0.000000e+00 cm
+  Default = 0.000000e+00 in
 },
 {
   Name = PRO_MP_ALT_COGZ
   Type = Real
-  Default = 0.000000e+00 cm
+  Default = 0.000000e+00 in
 },
 {
   Name = PRO_MP_ALT_IXX
   Type = Real
-  Default = 0.000000e+00 cm^2 g
+  Default = 1.210628e-03 in^2 lbm
 },
 {
   Name = PRO_MP_ALT_IYY
   Type = Real
-  Default = 0.000000e+00 cm^2 g
+  Default = 2.185738e-01 in^2 lbm
 },
 {
   Name = PRO_MP_ALT_IZZ
   Type = Real
-  Default = 0.000000e+00 cm^2 g
+  Default = 2.185910e-01 in^2 lbm
 },
 {
   Name = PRO_MP_ALT_IXY
   Type = Real
-  Default = 0.000000e+00 cm^2 g
+  Default = 0.000000e+00 in^2 lbm
 },
 {
   Name = PRO_MP_ALT_IXZ
   Type = Real
-  Default = 0.000000e+00 cm^2 g
+  Default = 0.000000e+00 in^2 lbm
 },
 {
   Name = PRO_MP_ALT_IYZ
   Type = Real
-  Default = 0.000000e+00 cm^2 g
+  Default = 0.000000e+00 in^2 lbm
 }
 
 }
