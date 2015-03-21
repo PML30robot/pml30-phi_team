@@ -16,7 +16,7 @@ PARAMETERS =
 {
   Name = MP_DENSITY
   Type = Real
-  Default = 0.000000e+00 g/cm^3
+  Default = 3.900480e+00 g/cm^3
 },
 {
   Name = PRO_MP_ALT_VOLUME
@@ -26,7 +26,7 @@ PARAMETERS =
 {
   Name = PRO_MP_ALT_MASS
   Type = Real
-  Default = 0.000000e+00 g
+  Default = 2.600000e+03 g
 },
 {
   Name = PRO_MP_ALT_AREA
