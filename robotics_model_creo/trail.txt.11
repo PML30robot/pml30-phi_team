@@ -1,0 +1,586 @@
+﻿!trail file version No. 1800
+!Creo  TM  3.0  (c) 2015 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 5816
+!	Application: Creo_Parametric
+!	Start date&time: 2015/03/22  13:02:15
+!	language: russian
+!	machine type: i486_nt
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Users\User\Desktop\Robot\robotics_model_creo\traceback.log
+!end Exit Logger data.
+< 0 1.218370 1773 0 0 1028 1920 0 0 1080 13
+!mem_use INCREASE Blocks 645396, AppSize 50933045, SysSize 63264136
+< 0 0.992000 1627 0 0 837 1920 0 0 1080 13
+< 0 0.992000 1464 0 0 837 1920 0 0 1080 13
+!%CIДобро пожаловать в PTC Creo Parametric Educational Edition 3.0.
+#ASSEMBLY
+#RETRIEVE
+!%CPВведите наименование объекта: 
+!%TR
+C:\Users\User\Desktop\Robot\robotics_model_creo\150315.asm.26
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+!Command ProCmdModelOpenExe was pushed from the software.
+!22-Mar-15 13:02:20  Start C:\Users\User\Desktop\Robot\robotics_model_creo\150315.asm.26
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739068_2012.prt.3
+!22-Mar-15 13:02:21  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739068_2012.prt.3
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739273_2013.prt.4
+!22-Mar-15 13:02:21  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739273_2013.prt.4
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739061_2012.prt.3
+!22-Mar-15 13:02:21  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739061_2012.prt.3
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739065_2012.prt.3
+!22-Mar-15 13:02:21  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739065_2012.prt.3
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\2-p_trim.prt.2
+!22-Mar-15 13:02:21  End   C:\Users\User\Desktop\Robot\robotics_model_creo\2-p_trim.prt.2
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\2-p_trim_simmetric.prt.2
+!22-Mar-15 13:02:21  End   C:\Users\User\Desktop\Robot\robotics_model_creo\2-p_trim_simmetric.prt.2
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739069_2012.prt.1
+!22-Mar-15 13:02:21  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739069_2012.prt.1
+!22-Mar-15 13:02:21  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739067_2012.prt.2
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739067_2012.prt.2
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_991444_2012.prt
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_991444_2012.prt
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\1p_trim.prt
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\1p_trim.prt
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_991445_2012.prt
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_991445_2012.prt
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739100_2012.prt
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739100_2012.prt
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739070_2012.prt
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739070_2012.prt
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_8_beam.prt
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_8_beam.prt
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\10flat.prt.1
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\10flat.prt.1
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739376x108129_2013.prt.4
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739376x108129_2013.prt.4
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739101_2012.prt
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739101_2012.prt
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739376x108124_2013.prt.4
+!22-Mar-15 13:02:22  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739376x108124_2013.prt.4
+!22-Mar-15 13:02:22  Start C:\Users\User\Desktop\Robot\robotics_model_creo\5-mid.prt.3
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\5-mid.prt.3
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739083_2012.asm.5
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739083_motor_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739083_motor_2012.prt.2
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739083_axle_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739083_axle_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739083_2012.asm.5
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739376x108128_2013.prt.4
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739376x108128_2013.prt.4
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739072_2012.prt
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739072_2012.prt
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\gear_1.asm.2
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739028_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739028_2012.prt.2
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739172_2012.asm
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739172_collar_2012.prt
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739172_collar_2012.prt
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739172_screw_2012.prt
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739172_screw_2012.prt
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739172_2012.asm
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\gear_1.asm.2
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\palka.prt.1
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\palka.prt.1
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739079_2012.asm.3
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739079_collar_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739079_collar_2012.prt.2
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739079_screw_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739079_screw_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739079_2012.asm.3
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739103_2012.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739103_2012.prt.2
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\palka2.prt.2
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\palka2.prt.2
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_brick_2012.asm
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_inner_2012.prt
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_inner_2012.prt
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_shell_2012.prt
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_shell_2012.prt
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_battery_case_2012.prt
+!22-Mar-15 13:02:23  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_battery_case_2012.prt
+!22-Mar-15 13:02:23  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_battery_2012.prt
+!sket_eps      0.8191750595
+!mem_use INCREASE Blocks 1458212, AppSize 239973256, SysSize 259085312
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_battery_2012.prt
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_socket_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_socket_2012.prt
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_socket_usb_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_socket_usb_2012.prt
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_button_1_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_button_1_2012.prt
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_button_2_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_button_2_2012.prt
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_button_3_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_button_3_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_brick_2012.asm
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_motor_2012.asm.2
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_motor_2012.prt.2
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_motor_2012.prt.2
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_motor_wheel_2012.prt.2
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_motor_wheel_2012.prt.2
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\nxt_motor_2012.asm.2
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\samantha_module_2012.asm
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\samantha_case_top_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\samantha_case_top_2012.prt
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\samantha_case_bottom_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\samantha_case_bottom_2012.prt
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\samantha_module_2012.asm
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3-module.asm.10
+!22-Mar-15 13:02:24  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739066_2012.prt.1
+!22-Mar-15 13:02:24  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739066_2012.prt.1
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739073_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739073_2012.prt
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3.asm.13
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_axis.prt.4
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_axis.prt.4
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_vane_fix.asm.2
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739077_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739077_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_vane_fix.asm.2
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_nxtmotor.asm.8
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\beam_9_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\beam_9_2012.prt
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739120_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739120_2012.prt
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\beam_3_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\beam_3_2012.prt
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739062_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739062_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_nxtmotor.asm.8
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_nxtmotor2.asm.5
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_nxtmotor2.asm.5
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_vane.prt.8
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_vane.prt.8
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3.asm.13
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_catch_left.asm.9
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739060_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739060_2012.prt
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_catch_servo.asm.4
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_servo_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_servo_2012.prt
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_metal_horn_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_metal_horn_2012.prt
+!22-Mar-15 13:02:25  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_screw_2012.prt
+!22-Mar-15 13:02:25  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_screw_2012.prt
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_plastic_horn_2012.prt
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739197_plastic_horn_2012.prt
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_catch_servo.asm.4
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_catch_plate.prt.4
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_catch_plate.prt.4
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_catch_left.asm.9
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_catch_right.asm.9
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_catch_servo2.asm
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball2_catch_servo2.asm
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3_catch_right.asm.9
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_ball3-module.asm.10
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_strong_motor.asm.12
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_servo.asm.7
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_servo.asm.7
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-9piece_with_hole.prt.5
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-9piece_with_hole.prt.5
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_hold.prt.7
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_hold.prt.7
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_slope2.prt.8
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_slope2.prt.8
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_slope2_left.prt.10
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_slope2_left.prt.10
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-capture_goal2_strong_motor.asm.12
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_elevator.asm.13
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail.asm.13
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_back.prt.5
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_back.prt.5
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30.asm.5
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_back.prt.7
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_back.prt.7
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_middle.prt.8
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_middle.prt.8
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_front.prt.7
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_front.prt.7
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_bearing2.prt.6
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_bearing2.prt.6
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_bearing1.prt.7
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30_bearing1.prt.7
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_30.asm.5
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_middle.prt.4
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_middle.prt.4
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_middle2.prt.5
+!22-Mar-15 13:02:26  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_middle2.prt.5
+!22-Mar-15 13:02:26  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35.asm.9
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_back.prt.9
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_back.prt.9
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_bearing1.prt.8
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_bearing1.prt.8
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_middle.prt.9
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_middle.prt.9
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_bearing2.prt.7
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_bearing2.prt.7
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_front.prt.8
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35_front.prt.8
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_35.asm.9
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_front.prt.4
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_front.prt.4
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_corner.prt.4
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_corner.prt.4
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_corner2.prt.6
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_corner2.prt.6
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_736466_joining_hub.prt.2
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_736466_joining_hub.prt.2
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-2x2piece.prt.3
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-2x2piece.prt.3
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_corner3.prt.7
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_hold_corner3.prt.7
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_axle_hold.prt.5
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_axle_hold.prt.5
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail.asm.13
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail2.asm.13
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail2.asm.13
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_back.prt.5
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_back.prt.5
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_middle.prt.6
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_middle.prt.6
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_front.prt.6
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_front.prt.6
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_front2.prt.6
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_rib_front2.prt.6
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_back_axis.prt.3
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_back_axis.prt.3
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_middle_axis.prt.5
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_middle_axis.prt.5
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_middle2_axis.prt.4
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_middle2_axis.prt.4
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_front_axis.prt.4
+!22-Mar-15 13:02:27  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_front_axis.prt.4
+!22-Mar-15 13:02:27  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_front2_axis.prt.4
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_rail_front2_axis.prt.4
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739075_2012.prt
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739075_2012.prt
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-detailed_elevator.asm.13
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\motors_wheels.asm.5
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739089_2012.prt
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739089_2012.prt
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\gear_mid.asm.2
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_731901_80_2013.prt
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_731901_80_2013.prt
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\gear_mid.asm.2
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\2-p.prt.1
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\2-p.prt.1
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\3p.prt.2
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\3p.prt.2
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\wheel.asm.1
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739055_2012.prt
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739055_2012.prt
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\wheel.asm.1
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\motors_wheels.asm.5
+!22-Mar-15 13:02:28  Start C:\Users\User\Desktop\Robot\robotics_model_creo\motors_wheels_right.asm.7
+!22-Mar-15 13:02:28  End   C:\Users\User\Desktop\Robot\robotics_model_creo\motors_wheels_right.asm.7
+!22-Mar-15 13:02:29  Start C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739057_2012.prt
+!22-Mar-15 13:02:29  End   C:\Users\User\Desktop\Robot\robotics_model_creo\tetrix_739057_2012.prt
+!22-Mar-15 13:02:29  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_left.prt.3
+!22-Mar-15 13:02:29  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_left.prt.3
+!22-Mar-15 13:02:29  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_right.prt.5
+!22-Mar-15 13:02:29  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_right.prt.5
+!22-Mar-15 13:02:29  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_front.prt.5
+!22-Mar-15 13:02:29  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_front.prt.5
+!22-Mar-15 13:02:29  Start C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_back.prt.6
+!22-Mar-15 13:02:29  End   C:\Users\User\Desktop\Robot\robotics_model_creo\a-plexiglass_back.prt.6
+!%CDЛиния 2 сборка NXT_MOTOR_2012: С момента вычисления массовых свойств модель изменилась. Нужно пересчитать.
+!%CDЛиния 2 сборка NXT_MOTOR_2012: С момента вычисления массовых свойств модель изменилась. Нужно пересчитать.
+!%CDЛиния 2 сборка NXT_MOTOR_2012: С момента вычисления массовых свойств модель изменилась. Нужно пересчитать.
+!Mechanism Design Command Script File
+!	Version: 	P_20_60:spg
+!	Platform:	i486_nt
+!	Created: 	22.03.2015 at 13:02:30
+!%CIНайдено 3 циклических ссылок. Информация сохранена в файле 150315.crc.
+!ProgressBarDlg: Regen Started
+!%CIРегенерация A-DETAILED_RAIL завершена - подавлено констр. элементов или компонентов: 3.
+!Mechanism Design Command Script File
+!	Version: 	P_20_60:spg
+!	Platform:	i486_nt
+!	Created: 	22.03.2015 at 13:02:31
+!%CEThe connection "C293(TETRIX_739083_2012):Connec" of component TETRIX_739083_AXLE_2012.PRT from TETRIX_739083_2012.ASM with id path [ 293 44 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C40(NXT_MOTOR_2012):Connection_" of component NXT_MOTOR_WHEEL_2012.PRT from NXT_MOTOR_2012.ASM with id path [ 424 187 152 40 40 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C55(A-DETAILED_RAIL_30):Connect" of component A-DETAILED_RAIL_30_FRONT.PRT from A-DETAILED_RAIL_30.ASM with id path [ 430 54 55 58 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C55(A-DETAILED_RAIL_30):Connect" of component A-DETAILED_RAIL_30_FRONT.PRT from A-DETAILED_RAIL_30.ASM with id path [ 430 55 55 58 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C43(TETRIX_739083_2012):Connect" of component TETRIX_739083_AXLE_2012.PRT from TETRIX_739083_2012.ASM with id path [ 1042 43 44 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C47(TETRIX_739083_2012):Connect" of component TETRIX_739083_AXLE_2012.PRT from TETRIX_739083_2012.ASM with id path [ 1042 47 44 ] will be suppressed because of invalid constraint(s).
+!%CWОшибка сборки на основе текущего определения соединения.
+!%CIРегенерация A-DETAILED_RAIL2 завершена - подавлено констр. элементов или компонентов: 3.
+!%CIРегенерация A-CAPTURE_BALL3_NXTMOTOR2 завершена - подавлено констр. элементов или компонентов: 4.
+!%CIРегенерация A-CAPTURE_BALL3-MODULE завершена - подавлено констр. элементов или компонентов: 22.
+!%CIРегенерация 150315 завершена - подавлено констр. элементов или компонентов: 2.
+!ProgressBarDlg: Regen Completed
+!%CIДеталь 'NXT_MOTOR_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'NXT_MOTOR_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'NXT_MOTOR_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_30' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_30' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!22-Mar-15 13:03:00  End   C:\Users\User\Desktop\Robot\robotics_model_creo\150315.asm.26
+!%CWНовые объекты, созданные в данной учебной версии Creo Parametric, не будут
+!%C_совместимы с коммерческой лицензией Creo Parametric.
+< 0 0.986074 1464 0 0 832 1920 0 0 1080 13
+!mem_use INCREASE Blocks 3578805, AppSize 346601041, SysSize 394976440
+< 0 0.982519 1464 0 0 829 1920 0 0 1080 13
+~ Sync LearnConn_Startup
+~ Activate `transient_balloon` `no`
+!mem_use INCREASE Blocks 3661580, AppSize 371532656, SysSize 422777544
+~ Activate `main_dlg_cur` `EMBED_BROWSER Close`
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ Wheel `main_dlg_cur` `proe_win` 9 768 254 458752 512 1464 829 1920 1080 58775
+~ Wheel `main_dlg_cur` `proe_win` 9 780 259 458752 1536 1464 829 1920 1080 58820
+~ MButtonArm `main_dlg_cur` `proe_win` 9 732 310 0 1538 1464 829 1920 1080 59140
+~ Move `main_dlg_cur` `proe_win` 9 733 310 0 514 1464 829 1920 1080 59145
+~ Move `main_dlg_cur` `proe_win` 9 734 310 0 514 1464 829 1920 1080 59149
+~ Move `main_dlg_cur` `proe_win` 9 735 310 0 514 1464 829 1920 1080 59153
+~ Move `main_dlg_cur` `proe_win` 9 735 311 0 1026 1464 829 1920 1080 59155
+~ Move `main_dlg_cur` `proe_win` 9 736 311 0 514 1464 829 1920 1080 59157
+~ Move `main_dlg_cur` `proe_win` 9 737 311 0 514 1464 829 1920 1080 59161
+~ Move `main_dlg_cur` `proe_win` 9 738 311 0 514 1464 829 1920 1080 59163
+~ Move `main_dlg_cur` `proe_win` 9 739 311 0 514 1464 829 1920 1080 59167
+~ Move `main_dlg_cur` `proe_win` 9 746 313 0 1538 1464 829 1920 1080 59192
+~ Move `main_dlg_cur` `proe_win` 9 773 314 0 1538 1464 829 1920 1080 59230
+~ Move `main_dlg_cur` `proe_win` 9 803 315 0 1538 1464 829 1920 1080 59268
+~ Move `main_dlg_cur` `proe_win` 9 818 315 0 514 1464 829 1920 1080 59308
+~ Move `main_dlg_cur` `proe_win` 9 837 313 0 1538 1464 829 1920 1080 59345
+~ Move `main_dlg_cur` `proe_win` 9 852 309 0 1538 1464 829 1920 1080 59382
+~ Move `main_dlg_cur` `proe_win` 9 857 308 0 1538 1464 829 1920 1080 59419
+~ Move `main_dlg_cur` `proe_win` 9 857 306 0 1026 1464 829 1920 1080 59454
+~ Move `main_dlg_cur` `proe_win` 9 857 299 0 1026 1464 829 1920 1080 59488
+~ Move `main_dlg_cur` `proe_win` 9 853 289 0 1538 1464 829 1920 1080 59524
+~ Move `main_dlg_cur` `proe_win` 9 847 283 0 1538 1464 829 1920 1080 59559
+~ Move `main_dlg_cur` `proe_win` 9 843 281 0 1538 1464 829 1920 1080 59595
+~ Move `main_dlg_cur` `proe_win` 9 840 280 0 1538 1464 829 1920 1080 59629
+~ Move `main_dlg_cur` `proe_win` 9 836 280 0 514 1464 829 1920 1080 59665
+~ Move `main_dlg_cur` `proe_win` 9 832 280 0 514 1464 829 1920 1080 59701
+~ Move `main_dlg_cur` `proe_win` 9 829 280 0 514 1464 829 1920 1080 59739
+~ Move `main_dlg_cur` `proe_win` 9 828 280 0 514 1464 829 1920 1080 59776
+~ Move `main_dlg_cur` `proe_win` 9 827 280 0 514 1464 829 1920 1080 59814
+~ Move `main_dlg_cur` `proe_win` 9 822 283 0 1538 1464 829 1920 1080 59851
+~ Move `main_dlg_cur` `proe_win` 9 816 285 0 1538 1464 829 1920 1080 59887
+~ Move `main_dlg_cur` `proe_win` 9 807 287 0 1538 1464 829 1920 1080 59926
+~ Move `main_dlg_cur` `proe_win` 9 788 284 0 1538 1464 829 1920 1080 59963
+~ Move `main_dlg_cur` `proe_win` 9 769 279 0 1538 1464 829 1920 1080 60003
+~ Move `main_dlg_cur` `proe_win` 9 758 275 0 1538 1464 829 1920 1080 60043
+~ Move `main_dlg_cur` `proe_win` 9 744 269 0 1538 1464 829 1920 1080 60079
+~ Move `main_dlg_cur` `proe_win` 9 728 262 0 1538 1464 829 1920 1080 60118
+~ Move `main_dlg_cur` `proe_win` 9 720 256 0 1538 1464 829 1920 1080 60156
+~ Move `main_dlg_cur` `proe_win` 9 714 249 0 1538 1464 829 1920 1080 60194
+~ Move `main_dlg_cur` `proe_win` 9 705 240 0 1538 1464 829 1920 1080 60229
+~ Move `main_dlg_cur` `proe_win` 9 693 231 0 1538 1464 829 1920 1080 60266
+~ Move `main_dlg_cur` `proe_win` 9 675 224 0 1538 1464 829 1920 1080 60303
+~ Move `main_dlg_cur` `proe_win` 9 654 222 0 1538 1464 829 1920 1080 60342
+~ Move `main_dlg_cur` `proe_win` 9 633 226 0 1538 1464 829 1920 1080 60380
+~ Move `main_dlg_cur` `proe_win` 9 618 230 0 1538 1464 829 1920 1080 60419
+~ Move `main_dlg_cur` `proe_win` 9 611 231 0 1538 1464 829 1920 1080 60456
+~ Move `main_dlg_cur` `proe_win` 9 610 231 0 514 1464 829 1920 1080 60496
+~ Move `main_dlg_cur` `proe_win` 9 609 231 0 514 1464 829 1920 1080 60532
+~ Move `main_dlg_cur` `proe_win` 9 608 231 0 514 1464 829 1920 1080 60653
+~ Move `main_dlg_cur` `proe_win` 9 606 229 0 1538 1464 829 1920 1080 60691
+~ Move `main_dlg_cur` `proe_win` 9 603 227 0 1538 1464 829 1920 1080 60719
+~ Move `main_dlg_cur` `proe_win` 9 601 227 0 514 1464 829 1920 1080 60757
+~ Move `main_dlg_cur` `proe_win` 9 599 227 0 514 1464 829 1920 1080 60794
+~ Move `main_dlg_cur` `proe_win` 9 592 225 0 1538 1464 829 1920 1080 60831
+~ Move `main_dlg_cur` `proe_win` 9 583 224 0 1538 1464 829 1920 1080 60869
+~ Move `main_dlg_cur` `proe_win` 9 579 224 0 514 1464 829 1920 1080 60908
+~ Move `main_dlg_cur` `proe_win` 9 573 222 0 1538 1464 829 1920 1080 60944
+~ Move `main_dlg_cur` `proe_win` 9 567 222 0 514 1464 829 1920 1080 60979
+~ Move `main_dlg_cur` `proe_win` 9 560 222 0 514 1464 829 1920 1080 61016
+~ Move `main_dlg_cur` `proe_win` 9 553 222 0 514 1464 829 1920 1080 61052
+~ Move `main_dlg_cur` `proe_win` 9 549 222 0 514 1464 829 1920 1080 61087
+~ Move `main_dlg_cur` `proe_win` 9 544 222 0 514 1464 829 1920 1080 61122
+~ Move `main_dlg_cur` `proe_win` 9 539 221 0 1538 1464 829 1920 1080 61158
+~ Move `main_dlg_cur` `proe_win` 9 535 219 0 1538 1464 829 1920 1080 61194
+~ Move `main_dlg_cur` `proe_win` 9 531 217 0 1538 1464 829 1920 1080 61229
+~ Move `main_dlg_cur` `proe_win` 9 528 215 0 1538 1464 829 1920 1080 61267
+~ Move `main_dlg_cur` `proe_win` 9 526 213 0 1538 1464 829 1920 1080 61303
+~ Move `main_dlg_cur` `proe_win` 9 524 208 0 1538 1464 829 1920 1080 61342
+~ Move `main_dlg_cur` `proe_win` 9 522 205 0 1538 1464 829 1920 1080 61379
+~ Move `main_dlg_cur` `proe_win` 9 521 203 0 1538 1464 829 1920 1080 61415
+~ Move `main_dlg_cur` `proe_win` 9 519 200 0 1538 1464 829 1920 1080 61452
+~ Move `main_dlg_cur` `proe_win` 9 518 196 0 1538 1464 829 1920 1080 61491
+~ Move `main_dlg_cur` `proe_win` 9 518 194 0 1026 1464 829 1920 1080 61529
+~ Move `main_dlg_cur` `proe_win` 9 518 193 0 1026 1464 829 1920 1080 61922
+~ Move `main_dlg_cur` `proe_win` 9 524 196 0 1538 1464 829 1920 1080 61966
+~ Move `main_dlg_cur` `proe_win` 9 527 197 0 1538 1464 829 1920 1080 61995
+~ Move `main_dlg_cur` `proe_win` 9 529 198 0 1538 1464 829 1920 1080 62030
+~ Move `main_dlg_cur` `proe_win` 9 531 198 0 514 1464 829 1920 1080 62067
+~ Move `main_dlg_cur` `proe_win` 9 532 199 0 1538 1464 829 1920 1080 62105
+~ Move `main_dlg_cur` `proe_win` 9 534 200 0 1538 1464 829 1920 1080 62142
+~ Move `main_dlg_cur` `proe_win` 9 535 203 0 1538 1464 829 1920 1080 62179
+~ Move `main_dlg_cur` `proe_win` 9 535 206 0 1026 1464 829 1920 1080 62214
+~ Move `main_dlg_cur` `proe_win` 9 529 212 0 1538 1464 829 1920 1080 62251
+~ Move `main_dlg_cur` `proe_win` 9 518 215 0 1538 1464 829 1920 1080 62288
+~ Move `main_dlg_cur` `proe_win` 9 506 218 0 1538 1464 829 1920 1080 62326
+~ Move `main_dlg_cur` `proe_win` 9 492 220 0 1538 1464 829 1920 1080 62364
+~ Move `main_dlg_cur` `proe_win` 9 481 220 0 514 1464 829 1920 1080 62402
+~ Move `main_dlg_cur` `proe_win` 9 472 218 0 1538 1464 829 1920 1080 62443
+~ Move `main_dlg_cur` `proe_win` 9 468 217 0 1538 1464 829 1920 1080 62483
+~ Move `main_dlg_cur` `proe_win` 9 467 216 0 1538 1464 829 1920 1080 62522
+~ Move `main_dlg_cur` `proe_win` 9 467 215 0 1026 1464 829 1920 1080 62562
+~ Move `main_dlg_cur` `proe_win` 9 467 210 0 1026 1464 829 1920 1080 62600
+~ Move `main_dlg_cur` `proe_win` 9 473 200 0 1538 1464 829 1920 1080 62639
+~ Move `main_dlg_cur` `proe_win` 9 482 192 0 1538 1464 829 1920 1080 62678
+~ Move `main_dlg_cur` `proe_win` 9 487 187 0 1538 1464 829 1920 1080 62715
+~ Move `main_dlg_cur` `proe_win` 9 490 185 0 1538 1464 829 1920 1080 62754
+~ Move `main_dlg_cur` `proe_win` 9 492 184 0 1538 1464 829 1920 1080 62794
+~ Move `main_dlg_cur` `proe_win` 9 493 184 0 514 1464 829 1920 1080 62832
+~ Move `main_dlg_cur` `proe_win` 9 493 183 0 1026 1464 829 1920 1080 62884
+~ Move `main_dlg_cur` `proe_win` 9 494 181 0 1538 1464 829 1920 1080 62913
+~ Move `main_dlg_cur` `proe_win` 9 490 177 0 1538 1464 829 1920 1080 62951
+~ Move `main_dlg_cur` `proe_win` 9 485 175 0 1538 1464 829 1920 1080 62991
+~ Move `main_dlg_cur` `proe_win` 9 475 175 0 514 1464 829 1920 1080 63030
+~ Move `main_dlg_cur` `proe_win` 9 471 175 0 514 1464 829 1920 1080 63069
+~ Move `main_dlg_cur` `proe_win` 9 466 175 0 514 1464 829 1920 1080 63109
+~ Move `main_dlg_cur` `proe_win` 9 463 176 0 1538 1464 829 1920 1080 63148
+~ Move `main_dlg_cur` `proe_win` 9 458 179 0 1538 1464 829 1920 1080 63186
+~ Move `main_dlg_cur` `proe_win` 9 453 184 0 1538 1464 829 1920 1080 63226
+~ Move `main_dlg_cur` `proe_win` 9 446 189 0 1538 1464 829 1920 1080 63264
+~ Move `main_dlg_cur` `proe_win` 9 442 191 0 1538 1464 829 1920 1080 63304
+~ Move `main_dlg_cur` `proe_win` 9 440 191 0 514 1464 829 1920 1080 63344
+~ Move `main_dlg_cur` `proe_win` 9 436 193 0 1538 1464 829 1920 1080 63381
+~ Move `main_dlg_cur` `proe_win` 9 429 198 0 1538 1464 829 1920 1080 63420
+~ Move `main_dlg_cur` `proe_win` 9 427 211 0 1538 1464 829 1920 1080 63460
+~ Move `main_dlg_cur` `proe_win` 9 430 223 0 1538 1464 829 1920 1080 63497
+~ Move `main_dlg_cur` `proe_win` 9 436 233 0 1538 1464 829 1920 1080 63535
+~ Move `main_dlg_cur` `proe_win` 9 438 240 0 1538 1464 829 1920 1080 63575
+~ Move `main_dlg_cur` `proe_win` 9 435 242 0 1538 1464 829 1920 1080 63615
+~ Move `main_dlg_cur` `proe_win` 9 424 237 0 1538 1464 829 1920 1080 63655
+~ Move `main_dlg_cur` `proe_win` 9 418 227 0 1538 1464 829 1920 1080 63696
+~ Move `main_dlg_cur` `proe_win` 9 416 216 0 1538 1464 829 1920 1080 63733
+~ Move `main_dlg_cur` `proe_win` 9 418 201 0 1538 1464 829 1920 1080 63773
+~ Move `main_dlg_cur` `proe_win` 9 435 187 0 1538 1464 829 1920 1080 63812
+~ Move `main_dlg_cur` `proe_win` 9 466 181 0 1538 1464 829 1920 1080 63849
+~ Move `main_dlg_cur` `proe_win` 9 514 184 0 1538 1464 829 1920 1080 63887
+~ Move `main_dlg_cur` `proe_win` 9 565 196 0 1538 1464 829 1920 1080 63926
+~ Move `main_dlg_cur` `proe_win` 9 588 204 0 1538 1464 829 1920 1080 63963
+~ Move `main_dlg_cur` `proe_win` 9 605 213 0 1538 1464 829 1920 1080 63996
+~ Move `main_dlg_cur` `proe_win` 9 628 227 0 1538 1464 829 1920 1080 64033
+~ Move `main_dlg_cur` `proe_win` 9 643 239 0 1538 1464 829 1920 1080 64071
+~ Move `main_dlg_cur` `proe_win` 9 647 243 0 1538 1464 829 1920 1080 64110
+~ Move `main_dlg_cur` `proe_win` 9 646 243 0 514 1464 829 1920 1080 64351
+~ Move `main_dlg_cur` `proe_win` 9 645 242 0 1538 1464 829 1920 1080 64408
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 645 242 0 0 1464 829 1920 1080 64443
+~ LButtonArm `main_dlg_cur` `proe_win` 9 1175 52 0 513 1464 829 1920 1080 76653
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 1175 52 0 0 1464 829 1920 1080 76779
+@ sel view 0
+ -6.483769 0.620526 4.209902 2.187239 7.067470 2.326896
+ -3.650248 3.132636 -6.083574 434.483901 533.007783 -1801.442326 1.562500 0.000000 0
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1111 88 0 514 1464 829 1920 1080 77595
+~ Move `main_dlg_cur` `proe_win` 9 1110 88 0 514 1464 829 1920 1080 77727
+~ Move `main_dlg_cur` `proe_win` 9 1109 88 0 514 1464 829 1920 1080 77779
+~ Move `main_dlg_cur` `proe_win` 9 1108 88 0 514 1464 829 1920 1080 77791
+~ Move `main_dlg_cur` `proe_win` 9 1107 88 0 514 1464 829 1920 1080 77793
+~ Move `main_dlg_cur` `proe_win` 9 1106 88 0 514 1464 829 1920 1080 77797
+~ Move `main_dlg_cur` `proe_win` 9 1105 88 0 514 1464 829 1920 1080 77801
+~ Move `main_dlg_cur` `proe_win` 9 1104 88 0 514 1464 829 1920 1080 77803
+~ Move `main_dlg_cur` `proe_win` 9 1072 80 0 1538 1464 829 1920 1080 77854
+~ Move `main_dlg_cur` `proe_win` 9 1062 78 0 1538 1464 829 1920 1080 77885
+~ Move `main_dlg_cur` `proe_win` 9 1056 76 0 1538 1464 829 1920 1080 77922
+~ Move `main_dlg_cur` `proe_win` 9 1053 75 0 1538 1464 829 1920 1080 77959
+~ Move `main_dlg_cur` `proe_win` 9 1048 72 0 1538 1464 829 1920 1080 77997
+~ Move `main_dlg_cur` `proe_win` 9 1028 65 0 1538 1464 829 1920 1080 78033
+~ Move `main_dlg_cur` `proe_win` 9 1020 63 0 1538 1464 829 1920 1080 78070
+~ Move `main_dlg_cur` `proe_win` 9 1020 62 0 1026 1464 829 1920 1080 78215
+~ Move `main_dlg_cur` `proe_win` 9 1028 54 0 1538 1464 829 1920 1080 78256
+~ Move `main_dlg_cur` `proe_win` 9 1036 50 0 1538 1464 829 1920 1080 78282
+~ Move `main_dlg_cur` `proe_win` 9 1043 46 0 1538 1464 829 1920 1080 78319
+~ Move `main_dlg_cur` `proe_win` 9 1052 42 0 1538 1464 829 1920 1080 78354
+~ Move `main_dlg_cur` `proe_win` 9 1066 35 0 1538 1464 829 1920 1080 78390
+~ Move `main_dlg_cur` `proe_win` 9 1079 28 0 1538 1464 829 1920 1080 78428
+~ Move `main_dlg_cur` `proe_win` 9 1082 25 0 1538 1464 829 1920 1080 78462
+~ Move `main_dlg_cur` `proe_win` 9 1082 24 0 1026 1464 829 1920 1080 78537
+~ Move `main_dlg_cur` `proe_win` 9 1062 9 0 1538 1464 829 1920 1080 78588
+~ Move `main_dlg_cur` `proe_win` 9 1045 2 0 1538 1464 829 1920 1080 78618
+~ Move `main_dlg_cur` `proe_win` 9 1019 -4 0 1538 1464 829 1920 1080 78650
+~ Move `main_dlg_cur` `proe_win` 9 998 -6 0 1538 1464 829 1920 1080 78686
+~ Move `main_dlg_cur` `proe_win` 9 988 -5 0 1538 1464 829 1920 1080 78721
+~ Move `main_dlg_cur` `proe_win` 9 977 -1 0 1538 1464 829 1920 1080 78757
+~ Move `main_dlg_cur` `proe_win` 9 964 8 0 1538 1464 829 1920 1080 78795
+~ Move `main_dlg_cur` `proe_win` 9 948 18 0 1538 1464 829 1920 1080 78833
+~ Move `main_dlg_cur` `proe_win` 9 938 32 0 1538 1464 829 1920 1080 78871
+~ Move `main_dlg_cur` `proe_win` 9 927 49 0 1538 1464 829 1920 1080 78912
+~ Move `main_dlg_cur` `proe_win` 9 915 65 0 1538 1464 829 1920 1080 78951
+~ Move `main_dlg_cur` `proe_win` 9 909 72 0 1538 1464 829 1920 1080 78991
+~ Move `main_dlg_cur` `proe_win` 9 898 77 0 1538 1464 829 1920 1080 79030
+~ Move `main_dlg_cur` `proe_win` 9 880 84 0 1538 1464 829 1920 1080 79070
+~ Move `main_dlg_cur` `proe_win` 9 865 91 0 1538 1464 829 1920 1080 79112
+~ Move `main_dlg_cur` `proe_win` 9 855 94 0 1538 1464 829 1920 1080 79151
+~ Move `main_dlg_cur` `proe_win` 9 843 94 0 514 1464 829 1920 1080 79192
+~ Move `main_dlg_cur` `proe_win` 9 826 91 0 1538 1464 829 1920 1080 79231
+~ Move `main_dlg_cur` `proe_win` 9 816 89 0 1538 1464 829 1920 1080 79270
+~ Move `main_dlg_cur` `proe_win` 9 815 89 0 514 1464 829 1920 1080 79311
+~ Move `main_dlg_cur` `proe_win` 9 815 88 0 1026 1464 829 1920 1080 79366
+~ Move `main_dlg_cur` `proe_win` 9 814 81 0 1538 1464 829 1920 1080 79392
+~ Move `main_dlg_cur` `proe_win` 9 823 70 0 1538 1464 829 1920 1080 79433
+~ Move `main_dlg_cur` `proe_win` 9 834 61 0 1538 1464 829 1920 1080 79471
+~ Move `main_dlg_cur` `proe_win` 9 842 57 0 1538 1464 829 1920 1080 79511
+~ Move `main_dlg_cur` `proe_win` 9 851 56 0 1538 1464 829 1920 1080 79549
+~ Move `main_dlg_cur` `proe_win` 9 876 55 0 1538 1464 829 1920 1080 79587
+~ Move `main_dlg_cur` `proe_win` 9 901 54 0 1538 1464 829 1920 1080 79628
+~ Move `main_dlg_cur` `proe_win` 9 901 53 0 1026 1464 829 1920 1080 79840
+~ Move `main_dlg_cur` `proe_win` 9 899 49 0 1538 1464 829 1920 1080 79872
+~ Move `main_dlg_cur` `proe_win` 9 896 45 0 1538 1464 829 1920 1080 79903
+~ Move `main_dlg_cur` `proe_win` 9 889 40 0 1538 1464 829 1920 1080 79944
+~ Move `main_dlg_cur` `proe_win` 9 889 39 0 1026 1464 829 1920 1080 79983
+~ Move `main_dlg_cur` `proe_win` 9 889 38 0 1026 1464 829 1920 1080 80050
+~ Move `main_dlg_cur` `proe_win` 9 890 36 0 1538 1464 829 1920 1080 80069
+~ Move `main_dlg_cur` `proe_win` 9 897 31 0 1538 1464 829 1920 1080 80109
+~ Move `main_dlg_cur` `proe_win` 9 898 31 0 514 1464 829 1920 1080 80148
+~ Move `main_dlg_cur` `proe_win` 9 899 31 0 514 1464 829 1920 1080 80188
+~ Move `main_dlg_cur` `proe_win` 9 911 31 0 514 1464 829 1920 1080 80228
+~ Move `main_dlg_cur` `proe_win` 9 930 30 0 1538 1464 829 1920 1080 80265
+~ Move `main_dlg_cur` `proe_win` 9 941 30 0 514 1464 829 1920 1080 80304
+~ Move `main_dlg_cur` `proe_win` 9 941 31 0 1026 1464 829 1920 1080 80628
+~ Move `main_dlg_cur` `proe_win` 9 939 40 0 1538 1464 829 1920 1080 80675
+~ Move `main_dlg_cur` `proe_win` 9 937 42 0 1538 1464 829 1920 1080 80703
+~ Move `main_dlg_cur` `proe_win` 9 933 45 0 1538 1464 829 1920 1080 80741
+~ Move `main_dlg_cur` `proe_win` 9 932 45 0 514 1464 829 1920 1080 80780
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 932 45 0 0 1464 829 1920 1080 81072
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : PTC Creo Parametric Educational Edition  будет остановлен и любая несохраненная работа будет утеряна.
+!               : Выйти?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

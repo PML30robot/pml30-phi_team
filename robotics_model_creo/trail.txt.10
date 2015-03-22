@@ -1,0 +1,732 @@
+﻿!trail file version No. 1800
+!Creo  TM  3.0  (c) 2015 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 6136
+!	Application: Creo_Parametric
+!	Start date&time: 2015/03/21  21:52:09
+!	language: russian
+!	machine type: i486_nt
+!	datecode: M010
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: F:\robotics_model_creo\traceback.log
+!end Exit Logger data.
+< 0 1.218370 1773 0 0 1028 1920 0 0 1080 13
+!mem_use INCREASE Blocks 645395, AppSize 50935960, SysSize 63202808
+< 0 0.992000 1627 0 0 837 1920 0 0 1080 13
+< 0 0.992000 1464 0 0 837 1920 0 0 1080 13
+!%CIДобро пожаловать в PTC Creo Parametric Educational Edition 3.0.
+#ASSEMBLY
+#RETRIEVE
+!%CPВведите наименование объекта: 
+!%TR
+F:\robotics_model_creo\150315.asm.26
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+!Command ProCmdModelOpenExe was pushed from the software.
+!21-Mar-15 21:52:17  Start F:\robotics_model_creo\150315.asm.26
+!21-Mar-15 21:52:19  Start F:\robotics_model_creo\tetrix_739068_2012.prt.3
+!21-Mar-15 21:52:22  End   F:\robotics_model_creo\tetrix_739068_2012.prt.3
+!21-Mar-15 21:52:22  Start F:\robotics_model_creo\tetrix_739273_2013.prt.4
+!21-Mar-15 21:52:23  End   F:\robotics_model_creo\tetrix_739273_2013.prt.4
+!21-Mar-15 21:52:23  Start F:\robotics_model_creo\tetrix_739061_2012.prt.3
+!21-Mar-15 21:52:23  End   F:\robotics_model_creo\tetrix_739061_2012.prt.3
+!21-Mar-15 21:52:23  Start F:\robotics_model_creo\tetrix_739065_2012.prt.3
+!21-Mar-15 21:52:24  End   F:\robotics_model_creo\tetrix_739065_2012.prt.3
+!21-Mar-15 21:52:24  Start F:\robotics_model_creo\2-p_trim.prt.2
+!21-Mar-15 21:52:27  End   F:\robotics_model_creo\2-p_trim.prt.2
+!21-Mar-15 21:52:27  Start F:\robotics_model_creo\2-p_trim_simmetric.prt.2
+!21-Mar-15 21:52:30  End   F:\robotics_model_creo\2-p_trim_simmetric.prt.2
+!21-Mar-15 21:52:30  Start F:\robotics_model_creo\tetrix_739069_2012.prt.1
+!21-Mar-15 21:52:32  End   F:\robotics_model_creo\tetrix_739069_2012.prt.1
+!21-Mar-15 21:52:32  Start F:\robotics_model_creo\tetrix_739067_2012.prt.2
+!21-Mar-15 21:52:35  End   F:\robotics_model_creo\tetrix_739067_2012.prt.2
+!21-Mar-15 21:52:36  Start F:\robotics_model_creo\tetrix_991444_2012.prt
+!21-Mar-15 21:52:41  End   F:\robotics_model_creo\tetrix_991444_2012.prt
+!21-Mar-15 21:52:43  Start F:\robotics_model_creo\1p_trim.prt
+!21-Mar-15 21:52:43  End   F:\robotics_model_creo\1p_trim.prt
+!21-Mar-15 21:52:43  Start F:\robotics_model_creo\tetrix_991445_2012.prt
+!21-Mar-15 21:52:47  End   F:\robotics_model_creo\tetrix_991445_2012.prt
+!21-Mar-15 21:52:49  Start F:\robotics_model_creo\tetrix_739100_2012.prt
+!21-Mar-15 21:52:49  End   F:\robotics_model_creo\tetrix_739100_2012.prt
+!21-Mar-15 21:52:49  Start F:\robotics_model_creo\tetrix_739070_2012.prt
+!21-Mar-15 21:52:50  End   F:\robotics_model_creo\tetrix_739070_2012.prt
+!21-Mar-15 21:52:50  Start F:\robotics_model_creo\tetrix_8_beam.prt
+!21-Mar-15 21:52:53  End   F:\robotics_model_creo\tetrix_8_beam.prt
+!21-Mar-15 21:52:53  Start F:\robotics_model_creo\10flat.prt.1
+!21-Mar-15 21:52:54  End   F:\robotics_model_creo\10flat.prt.1
+!21-Mar-15 21:52:54  Start F:\robotics_model_creo\tetrix_739376x108129_2013.prt.4
+!21-Mar-15 21:52:55  End   F:\robotics_model_creo\tetrix_739376x108129_2013.prt.4
+!21-Mar-15 21:52:55  Start F:\robotics_model_creo\tetrix_739101_2012.prt
+!21-Mar-15 21:52:55  End   F:\robotics_model_creo\tetrix_739101_2012.prt
+!21-Mar-15 21:52:55  Start F:\robotics_model_creo\tetrix_739376x108124_2013.prt.4
+!21-Mar-15 21:52:55  End   F:\robotics_model_creo\tetrix_739376x108124_2013.prt.4
+!21-Mar-15 21:52:56  Start F:\robotics_model_creo\5-mid.prt.3
+!21-Mar-15 21:52:58  End   F:\robotics_model_creo\5-mid.prt.3
+!21-Mar-15 21:52:59  Start F:\robotics_model_creo\tetrix_739083_2012.asm.5
+!21-Mar-15 21:52:59  Start F:\robotics_model_creo\tetrix_739083_motor_2012.prt.2
+!21-Mar-15 21:52:59  End   F:\robotics_model_creo\tetrix_739083_motor_2012.prt.2
+!21-Mar-15 21:52:59  Start F:\robotics_model_creo\tetrix_739083_axle_2012.prt.2
+!21-Mar-15 21:53:00  End   F:\robotics_model_creo\tetrix_739083_axle_2012.prt.2
+!21-Mar-15 21:53:00  End   F:\robotics_model_creo\tetrix_739083_2012.asm.5
+!21-Mar-15 21:53:00  Start F:\robotics_model_creo\tetrix_739376x108128_2013.prt.4
+!21-Mar-15 21:53:00  End   F:\robotics_model_creo\tetrix_739376x108128_2013.prt.4
+!21-Mar-15 21:53:00  Start F:\robotics_model_creo\tetrix_739072_2012.prt
+!21-Mar-15 21:53:01  End   F:\robotics_model_creo\tetrix_739072_2012.prt
+!21-Mar-15 21:53:01  Start F:\robotics_model_creo\gear_1.asm.2
+!21-Mar-15 21:53:01  Start F:\robotics_model_creo\tetrix_739028_2012.prt.2
+!21-Mar-15 21:53:02  End   F:\robotics_model_creo\tetrix_739028_2012.prt.2
+!21-Mar-15 21:53:02  Start F:\robotics_model_creo\tetrix_739172_2012.asm
+!21-Mar-15 21:53:02  Start F:\robotics_model_creo\tetrix_739172_collar_2012.prt
+!21-Mar-15 21:53:02  End   F:\robotics_model_creo\tetrix_739172_collar_2012.prt
+!21-Mar-15 21:53:03  Start F:\robotics_model_creo\tetrix_739172_screw_2012.prt
+!21-Mar-15 21:53:03  End   F:\robotics_model_creo\tetrix_739172_screw_2012.prt
+!21-Mar-15 21:53:03  End   F:\robotics_model_creo\tetrix_739172_2012.asm
+!21-Mar-15 21:53:03  End   F:\robotics_model_creo\gear_1.asm.2
+!21-Mar-15 21:53:03  Start F:\robotics_model_creo\palka.prt.1
+!21-Mar-15 21:53:03  End   F:\robotics_model_creo\palka.prt.1
+!21-Mar-15 21:53:03  Start F:\robotics_model_creo\tetrix_739079_2012.asm.3
+!21-Mar-15 21:53:03  Start F:\robotics_model_creo\tetrix_739079_collar_2012.prt.2
+!21-Mar-15 21:53:04  End   F:\robotics_model_creo\tetrix_739079_collar_2012.prt.2
+!21-Mar-15 21:53:04  Start F:\robotics_model_creo\tetrix_739079_screw_2012.prt.2
+!21-Mar-15 21:53:04  End   F:\robotics_model_creo\tetrix_739079_screw_2012.prt.2
+!21-Mar-15 21:53:04  End   F:\robotics_model_creo\tetrix_739079_2012.asm.3
+!21-Mar-15 21:53:04  Start F:\robotics_model_creo\tetrix_739103_2012.prt.2
+!21-Mar-15 21:53:05  End   F:\robotics_model_creo\tetrix_739103_2012.prt.2
+!21-Mar-15 21:53:05  Start F:\robotics_model_creo\palka2.prt.2
+!21-Mar-15 21:53:05  End   F:\robotics_model_creo\palka2.prt.2
+!21-Mar-15 21:53:05  Start F:\robotics_model_creo\nxt_brick_2012.asm
+!21-Mar-15 21:53:06  Start F:\robotics_model_creo\nxt_inner_2012.prt
+!21-Mar-15 21:53:06  End   F:\robotics_model_creo\nxt_inner_2012.prt
+!21-Mar-15 21:53:07  Start F:\robotics_model_creo\nxt_shell_2012.prt
+!21-Mar-15 21:53:08  End   F:\robotics_model_creo\nxt_shell_2012.prt
+!21-Mar-15 21:53:08  Start F:\robotics_model_creo\nxt_battery_case_2012.prt
+!21-Mar-15 21:53:09  End   F:\robotics_model_creo\nxt_battery_case_2012.prt
+!21-Mar-15 21:53:09  Start F:\robotics_model_creo\nxt_battery_2012.prt
+!sket_eps      0.8191750595
+!mem_use INCREASE Blocks 1459516, AppSize 250315397, SysSize 269432248
+!21-Mar-15 21:53:09  End   F:\robotics_model_creo\nxt_battery_2012.prt
+!21-Mar-15 21:53:10  Start F:\robotics_model_creo\nxt_socket_2012.prt
+!21-Mar-15 21:53:10  End   F:\robotics_model_creo\nxt_socket_2012.prt
+!21-Mar-15 21:53:10  Start F:\robotics_model_creo\nxt_socket_usb_2012.prt
+!21-Mar-15 21:53:10  End   F:\robotics_model_creo\nxt_socket_usb_2012.prt
+!21-Mar-15 21:53:11  Start F:\robotics_model_creo\nxt_button_1_2012.prt
+!21-Mar-15 21:53:11  End   F:\robotics_model_creo\nxt_button_1_2012.prt
+!21-Mar-15 21:53:11  Start F:\robotics_model_creo\nxt_button_2_2012.prt
+!21-Mar-15 21:53:11  End   F:\robotics_model_creo\nxt_button_2_2012.prt
+!21-Mar-15 21:53:11  Start F:\robotics_model_creo\nxt_button_3_2012.prt
+!21-Mar-15 21:53:11  End   F:\robotics_model_creo\nxt_button_3_2012.prt
+!21-Mar-15 21:53:11  End   F:\robotics_model_creo\nxt_brick_2012.asm
+!21-Mar-15 21:53:11  Start F:\robotics_model_creo\nxt_motor_2012.asm.2
+!21-Mar-15 21:53:12  Start F:\robotics_model_creo\nxt_motor_2012.prt.2
+!21-Mar-15 21:53:13  End   F:\robotics_model_creo\nxt_motor_2012.prt.2
+!21-Mar-15 21:53:13  Start F:\robotics_model_creo\nxt_motor_wheel_2012.prt.2
+!21-Mar-15 21:53:14  End   F:\robotics_model_creo\nxt_motor_wheel_2012.prt.2
+!21-Mar-15 21:53:14  End   F:\robotics_model_creo\nxt_motor_2012.asm.2
+!21-Mar-15 21:53:14  Start F:\robotics_model_creo\samantha_module_2012.asm
+!21-Mar-15 21:53:15  Start F:\robotics_model_creo\samantha_case_top_2012.prt
+!21-Mar-15 21:53:15  End   F:\robotics_model_creo\samantha_case_top_2012.prt
+!21-Mar-15 21:53:15  Start F:\robotics_model_creo\samantha_case_bottom_2012.prt
+!21-Mar-15 21:53:16  End   F:\robotics_model_creo\samantha_case_bottom_2012.prt
+!21-Mar-15 21:53:16  End   F:\robotics_model_creo\samantha_module_2012.asm
+!21-Mar-15 21:53:16  Start F:\robotics_model_creo\a-capture_ball3-module.asm.10
+!21-Mar-15 21:53:16  Start F:\robotics_model_creo\tetrix_739066_2012.prt.1
+!21-Mar-15 21:53:19  End   F:\robotics_model_creo\tetrix_739066_2012.prt.1
+!21-Mar-15 21:53:19  Start F:\robotics_model_creo\tetrix_739073_2012.prt
+!21-Mar-15 21:53:20  End   F:\robotics_model_creo\tetrix_739073_2012.prt
+!21-Mar-15 21:53:20  Start F:\robotics_model_creo\a-capture_ball3.asm.13
+!21-Mar-15 21:53:21  Start F:\robotics_model_creo\a-capture_ball2_axis.prt.4
+!21-Mar-15 21:53:21  End   F:\robotics_model_creo\a-capture_ball2_axis.prt.4
+!21-Mar-15 21:53:21  Start F:\robotics_model_creo\a-capture_ball2_vane_fix.asm.2
+!21-Mar-15 21:53:21  Start F:\robotics_model_creo\tetrix_739077_2012.prt
+!21-Mar-15 21:53:21  End   F:\robotics_model_creo\tetrix_739077_2012.prt
+!21-Mar-15 21:53:21  End   F:\robotics_model_creo\a-capture_ball2_vane_fix.asm.2
+!21-Mar-15 21:53:22  Start F:\robotics_model_creo\a-capture_ball3_nxtmotor.asm.8
+!21-Mar-15 21:53:22  Start F:\robotics_model_creo\beam_9_2012.prt
+!21-Mar-15 21:53:23  End   F:\robotics_model_creo\beam_9_2012.prt
+!21-Mar-15 21:53:23  Start F:\robotics_model_creo\tetrix_739120_2012.prt
+!21-Mar-15 21:53:24  End   F:\robotics_model_creo\tetrix_739120_2012.prt
+!21-Mar-15 21:53:24  Start F:\robotics_model_creo\beam_3_2012.prt
+!21-Mar-15 21:53:24  End   F:\robotics_model_creo\beam_3_2012.prt
+!21-Mar-15 21:53:24  Start F:\robotics_model_creo\tetrix_739062_2012.prt
+!21-Mar-15 21:53:25  End   F:\robotics_model_creo\tetrix_739062_2012.prt
+!21-Mar-15 21:53:25  End   F:\robotics_model_creo\a-capture_ball3_nxtmotor.asm.8
+!21-Mar-15 21:53:25  Start F:\robotics_model_creo\a-capture_ball3_nxtmotor2.asm.5
+!21-Mar-15 21:53:25  End   F:\robotics_model_creo\a-capture_ball3_nxtmotor2.asm.5
+!21-Mar-15 21:53:26  Start F:\robotics_model_creo\a-capture_ball3_vane.prt.8
+!21-Mar-15 21:53:26  End   F:\robotics_model_creo\a-capture_ball3_vane.prt.8
+!21-Mar-15 21:53:26  End   F:\robotics_model_creo\a-capture_ball3.asm.13
+!21-Mar-15 21:53:26  Start F:\robotics_model_creo\a-capture_ball3_catch_left.asm.9
+!21-Mar-15 21:53:26  Start F:\robotics_model_creo\tetrix_739060_2012.prt
+!21-Mar-15 21:53:27  End   F:\robotics_model_creo\tetrix_739060_2012.prt
+!21-Mar-15 21:53:27  Start F:\robotics_model_creo\a-capture_ball2_catch_servo.asm.4
+!21-Mar-15 21:53:27  Start F:\robotics_model_creo\tetrix_739197_servo_2012.prt
+!21-Mar-15 21:53:28  End   F:\robotics_model_creo\tetrix_739197_servo_2012.prt
+!21-Mar-15 21:53:28  Start F:\robotics_model_creo\tetrix_739197_metal_horn_2012.prt
+!21-Mar-15 21:53:28  End   F:\robotics_model_creo\tetrix_739197_metal_horn_2012.prt
+!21-Mar-15 21:53:28  Start F:\robotics_model_creo\tetrix_739197_screw_2012.prt
+!21-Mar-15 21:53:28  End   F:\robotics_model_creo\tetrix_739197_screw_2012.prt
+!21-Mar-15 21:53:28  Start F:\robotics_model_creo\tetrix_739197_plastic_horn_2012.prt
+!21-Mar-15 21:53:29  End   F:\robotics_model_creo\tetrix_739197_plastic_horn_2012.prt
+!21-Mar-15 21:53:29  End   F:\robotics_model_creo\a-capture_ball2_catch_servo.asm.4
+!21-Mar-15 21:53:29  Start F:\robotics_model_creo\a-capture_ball3_catch_plate.prt.4
+!21-Mar-15 21:53:29  End   F:\robotics_model_creo\a-capture_ball3_catch_plate.prt.4
+!21-Mar-15 21:53:29  End   F:\robotics_model_creo\a-capture_ball3_catch_left.asm.9
+!21-Mar-15 21:53:29  Start F:\robotics_model_creo\a-capture_ball3_catch_right.asm.9
+!21-Mar-15 21:53:29  Start F:\robotics_model_creo\a-capture_ball2_catch_servo2.asm
+!21-Mar-15 21:53:30  End   F:\robotics_model_creo\a-capture_ball2_catch_servo2.asm
+!21-Mar-15 21:53:30  End   F:\robotics_model_creo\a-capture_ball3_catch_right.asm.9
+!21-Mar-15 21:53:30  End   F:\robotics_model_creo\a-capture_ball3-module.asm.10
+!21-Mar-15 21:53:30  Start F:\robotics_model_creo\a-capture_goal2_strong_motor.asm.12
+!21-Mar-15 21:53:30  Start F:\robotics_model_creo\a-capture_goal2_servo.asm.7
+!21-Mar-15 21:53:31  End   F:\robotics_model_creo\a-capture_goal2_servo.asm.7
+!21-Mar-15 21:53:31  Start F:\robotics_model_creo\a-9piece_with_hole.prt.5
+!21-Mar-15 21:53:34  End   F:\robotics_model_creo\a-9piece_with_hole.prt.5
+!21-Mar-15 21:53:34  Start F:\robotics_model_creo\a-capture_goal2_hold.prt.7
+!21-Mar-15 21:53:35  End   F:\robotics_model_creo\a-capture_goal2_hold.prt.7
+!21-Mar-15 21:53:35  Start F:\robotics_model_creo\a-capture_goal2_slope2.prt.8
+!21-Mar-15 21:53:35  End   F:\robotics_model_creo\a-capture_goal2_slope2.prt.8
+!21-Mar-15 21:53:35  Start F:\robotics_model_creo\a-capture_goal2_slope2_left.prt.10
+!21-Mar-15 21:53:36  End   F:\robotics_model_creo\a-capture_goal2_slope2_left.prt.10
+!21-Mar-15 21:53:36  End   F:\robotics_model_creo\a-capture_goal2_strong_motor.asm.12
+!21-Mar-15 21:53:36  Start F:\robotics_model_creo\a-detailed_elevator.asm.13
+!21-Mar-15 21:53:36  Start F:\robotics_model_creo\a-detailed_rail.asm.13
+!21-Mar-15 21:53:37  Start F:\robotics_model_creo\a-detailed_rail_hold_back.prt.5
+!21-Mar-15 21:53:37  End   F:\robotics_model_creo\a-detailed_rail_hold_back.prt.5
+!21-Mar-15 21:53:37  Start F:\robotics_model_creo\a-detailed_rail_30.asm.5
+!21-Mar-15 21:53:37  Start F:\robotics_model_creo\a-detailed_rail_30_back.prt.7
+!21-Mar-15 21:53:37  End   F:\robotics_model_creo\a-detailed_rail_30_back.prt.7
+!21-Mar-15 21:53:38  Start F:\robotics_model_creo\a-detailed_rail_30_middle.prt.8
+!21-Mar-15 21:53:38  End   F:\robotics_model_creo\a-detailed_rail_30_middle.prt.8
+!21-Mar-15 21:53:38  Start F:\robotics_model_creo\a-detailed_rail_30_front.prt.7
+!21-Mar-15 21:53:38  End   F:\robotics_model_creo\a-detailed_rail_30_front.prt.7
+!21-Mar-15 21:53:38  Start F:\robotics_model_creo\a-detailed_rail_30_bearing2.prt.6
+!21-Mar-15 21:53:39  End   F:\robotics_model_creo\a-detailed_rail_30_bearing2.prt.6
+!21-Mar-15 21:53:39  Start F:\robotics_model_creo\a-detailed_rail_30_bearing1.prt.7
+!21-Mar-15 21:53:40  End   F:\robotics_model_creo\a-detailed_rail_30_bearing1.prt.7
+!21-Mar-15 21:53:40  End   F:\robotics_model_creo\a-detailed_rail_30.asm.5
+!21-Mar-15 21:53:40  Start F:\robotics_model_creo\a-detailed_rail_hold_middle.prt.4
+!21-Mar-15 21:53:40  End   F:\robotics_model_creo\a-detailed_rail_hold_middle.prt.4
+!21-Mar-15 21:53:40  Start F:\robotics_model_creo\a-detailed_rail_hold_middle2.prt.5
+!21-Mar-15 21:53:40  End   F:\robotics_model_creo\a-detailed_rail_hold_middle2.prt.5
+!21-Mar-15 21:53:40  Start F:\robotics_model_creo\a-detailed_rail_35.asm.9
+!21-Mar-15 21:53:41  Start F:\robotics_model_creo\a-detailed_rail_35_back.prt.9
+!21-Mar-15 21:53:41  End   F:\robotics_model_creo\a-detailed_rail_35_back.prt.9
+!21-Mar-15 21:53:41  Start F:\robotics_model_creo\a-detailed_rail_35_bearing1.prt.8
+!21-Mar-15 21:53:42  End   F:\robotics_model_creo\a-detailed_rail_35_bearing1.prt.8
+!21-Mar-15 21:53:42  Start F:\robotics_model_creo\a-detailed_rail_35_middle.prt.9
+!21-Mar-15 21:53:42  End   F:\robotics_model_creo\a-detailed_rail_35_middle.prt.9
+!21-Mar-15 21:53:42  Start F:\robotics_model_creo\a-detailed_rail_35_bearing2.prt.7
+!21-Mar-15 21:53:43  End   F:\robotics_model_creo\a-detailed_rail_35_bearing2.prt.7
+!21-Mar-15 21:53:43  Start F:\robotics_model_creo\a-detailed_rail_35_front.prt.8
+!21-Mar-15 21:53:44  End   F:\robotics_model_creo\a-detailed_rail_35_front.prt.8
+!21-Mar-15 21:53:44  End   F:\robotics_model_creo\a-detailed_rail_35.asm.9
+!21-Mar-15 21:53:44  Start F:\robotics_model_creo\a-detailed_rail_hold_front.prt.4
+!21-Mar-15 21:53:44  End   F:\robotics_model_creo\a-detailed_rail_hold_front.prt.4
+!21-Mar-15 21:53:44  Start F:\robotics_model_creo\a-detailed_rail_hold_corner.prt.4
+!21-Mar-15 21:53:44  End   F:\robotics_model_creo\a-detailed_rail_hold_corner.prt.4
+!21-Mar-15 21:53:44  Start F:\robotics_model_creo\a-detailed_rail_hold_corner2.prt.6
+!21-Mar-15 21:53:45  End   F:\robotics_model_creo\a-detailed_rail_hold_corner2.prt.6
+!21-Mar-15 21:53:45  Start F:\robotics_model_creo\tetrix_736466_joining_hub.prt.2
+!21-Mar-15 21:53:45  End   F:\robotics_model_creo\tetrix_736466_joining_hub.prt.2
+!21-Mar-15 21:53:45  Start F:\robotics_model_creo\a-2x2piece.prt.3
+!21-Mar-15 21:53:46  End   F:\robotics_model_creo\a-2x2piece.prt.3
+!21-Mar-15 21:53:46  Start F:\robotics_model_creo\a-detailed_rail_hold_corner3.prt.7
+!21-Mar-15 21:53:46  End   F:\robotics_model_creo\a-detailed_rail_hold_corner3.prt.7
+!21-Mar-15 21:53:46  Start F:\robotics_model_creo\a-detailed_rail_axle_hold.prt.5
+!21-Mar-15 21:53:47  End   F:\robotics_model_creo\a-detailed_rail_axle_hold.prt.5
+!21-Mar-15 21:53:47  End   F:\robotics_model_creo\a-detailed_rail.asm.13
+!21-Mar-15 21:53:47  Start F:\robotics_model_creo\a-detailed_rail2.asm.13
+!21-Mar-15 21:53:47  End   F:\robotics_model_creo\a-detailed_rail2.asm.13
+!21-Mar-15 21:53:48  Start F:\robotics_model_creo\a-detailed_rail_rib_back.prt.5
+!21-Mar-15 21:53:48  End   F:\robotics_model_creo\a-detailed_rail_rib_back.prt.5
+!21-Mar-15 21:53:48  Start F:\robotics_model_creo\a-detailed_rail_rib_middle.prt.6
+!21-Mar-15 21:53:48  End   F:\robotics_model_creo\a-detailed_rail_rib_middle.prt.6
+!21-Mar-15 21:53:49  Start F:\robotics_model_creo\a-detailed_rail_rib_front.prt.6
+!21-Mar-15 21:53:49  End   F:\robotics_model_creo\a-detailed_rail_rib_front.prt.6
+!21-Mar-15 21:53:49  Start F:\robotics_model_creo\a-detailed_rail_rib_front2.prt.6
+!21-Mar-15 21:53:49  End   F:\robotics_model_creo\a-detailed_rail_rib_front2.prt.6
+!21-Mar-15 21:53:49  Start F:\robotics_model_creo\a-detailed_rail_back_axis.prt.3
+!21-Mar-15 21:53:49  End   F:\robotics_model_creo\a-detailed_rail_back_axis.prt.3
+!21-Mar-15 21:53:50  Start F:\robotics_model_creo\a-detailed_rail_middle_axis.prt.5
+!21-Mar-15 21:53:50  End   F:\robotics_model_creo\a-detailed_rail_middle_axis.prt.5
+!21-Mar-15 21:53:50  Start F:\robotics_model_creo\a-detailed_rail_middle2_axis.prt.4
+!21-Mar-15 21:53:50  End   F:\robotics_model_creo\a-detailed_rail_middle2_axis.prt.4
+!21-Mar-15 21:53:50  Start F:\robotics_model_creo\a-detailed_rail_front_axis.prt.4
+!21-Mar-15 21:53:50  End   F:\robotics_model_creo\a-detailed_rail_front_axis.prt.4
+!21-Mar-15 21:53:50  Start F:\robotics_model_creo\a-detailed_rail_front2_axis.prt.4
+!21-Mar-15 21:53:51  End   F:\robotics_model_creo\a-detailed_rail_front2_axis.prt.4
+!21-Mar-15 21:53:51  Start F:\robotics_model_creo\tetrix_739075_2012.prt
+!21-Mar-15 21:53:51  End   F:\robotics_model_creo\tetrix_739075_2012.prt
+!21-Mar-15 21:53:51  End   F:\robotics_model_creo\a-detailed_elevator.asm.13
+!21-Mar-15 21:53:51  Start F:\robotics_model_creo\motors_wheels.asm.5
+!21-Mar-15 21:53:52  Start F:\robotics_model_creo\tetrix_739089_2012.prt
+!21-Mar-15 21:53:52  End   F:\robotics_model_creo\tetrix_739089_2012.prt
+!21-Mar-15 21:53:52  Start F:\robotics_model_creo\gear_mid.asm.2
+!21-Mar-15 21:53:52  Start F:\robotics_model_creo\tetrix_731901_80_2013.prt
+!21-Mar-15 21:53:53  End   F:\robotics_model_creo\tetrix_731901_80_2013.prt
+!21-Mar-15 21:53:53  End   F:\robotics_model_creo\gear_mid.asm.2
+!21-Mar-15 21:53:53  Start F:\robotics_model_creo\2-p.prt.1
+!21-Mar-15 21:53:56  End   F:\robotics_model_creo\2-p.prt.1
+!21-Mar-15 21:53:56  Start F:\robotics_model_creo\3p.prt.2
+!21-Mar-15 21:53:59  End   F:\robotics_model_creo\3p.prt.2
+!21-Mar-15 21:53:59  Start F:\robotics_model_creo\wheel.asm.1
+!21-Mar-15 21:54:00  Start F:\robotics_model_creo\tetrix_739055_2012.prt
+!21-Mar-15 21:54:00  End   F:\robotics_model_creo\tetrix_739055_2012.prt
+!21-Mar-15 21:54:00  End   F:\robotics_model_creo\wheel.asm.1
+!21-Mar-15 21:54:00  End   F:\robotics_model_creo\motors_wheels.asm.5
+!21-Mar-15 21:54:02  Start F:\robotics_model_creo\motors_wheels_right.asm.7
+!21-Mar-15 21:54:03  End   F:\robotics_model_creo\motors_wheels_right.asm.7
+!21-Mar-15 21:54:06  Start F:\robotics_model_creo\tetrix_739057_2012.prt
+!21-Mar-15 21:54:06  End   F:\robotics_model_creo\tetrix_739057_2012.prt
+!21-Mar-15 21:54:06  Start F:\robotics_model_creo\a-plexiglass_left.prt.3
+!21-Mar-15 21:54:06  End   F:\robotics_model_creo\a-plexiglass_left.prt.3
+!21-Mar-15 21:54:06  Start F:\robotics_model_creo\a-plexiglass_right.prt.5
+!21-Mar-15 21:54:06  End   F:\robotics_model_creo\a-plexiglass_right.prt.5
+!21-Mar-15 21:54:07  Start F:\robotics_model_creo\a-plexiglass_front.prt.5
+!21-Mar-15 21:54:07  End   F:\robotics_model_creo\a-plexiglass_front.prt.5
+!21-Mar-15 21:54:07  Start F:\robotics_model_creo\a-plexiglass_back.prt.6
+!21-Mar-15 21:54:07  End   F:\robotics_model_creo\a-plexiglass_back.prt.6
+!%CDЛиния 2 сборка NXT_MOTOR_2012: С момента вычисления массовых свойств модель изменилась. Нужно пересчитать.
+!%CDЛиния 2 сборка NXT_MOTOR_2012: С момента вычисления массовых свойств модель изменилась. Нужно пересчитать.
+!%CDЛиния 2 сборка NXT_MOTOR_2012: С момента вычисления массовых свойств модель изменилась. Нужно пересчитать.
+!Mechanism Design Command Script File
+!	Version: 	P_20_60:spg
+!	Platform:	i486_nt
+!	Created: 	21.03.2015 at 21:54:12
+!%CIНайдено 3 циклических ссылок. Информация сохранена в файле 150315.crc.
+!ProgressBarDlg: Regen Started
+!%CIРегенерация A-DETAILED_RAIL завершена - подавлено констр. элементов или компонентов: 3.
+!Mechanism Design Command Script File
+!	Version: 	P_20_60:spg
+!	Platform:	i486_nt
+!	Created: 	21.03.2015 at 21:54:18
+!%CEThe connection "C293(TETRIX_739083_2012):Connec" of component TETRIX_739083_AXLE_2012.PRT from TETRIX_739083_2012.ASM with id path [ 293 44 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C40(NXT_MOTOR_2012):Connection_" of component NXT_MOTOR_WHEEL_2012.PRT from NXT_MOTOR_2012.ASM with id path [ 424 187 152 40 40 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C55(A-DETAILED_RAIL_30):Connect" of component A-DETAILED_RAIL_30_FRONT.PRT from A-DETAILED_RAIL_30.ASM with id path [ 430 54 55 58 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C55(A-DETAILED_RAIL_30):Connect" of component A-DETAILED_RAIL_30_FRONT.PRT from A-DETAILED_RAIL_30.ASM with id path [ 430 55 55 58 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C43(TETRIX_739083_2012):Connect" of component TETRIX_739083_AXLE_2012.PRT from TETRIX_739083_2012.ASM with id path [ 1042 43 44 ] will be suppressed because of invalid constraint(s).
+!%CEThe connection "C47(TETRIX_739083_2012):Connect" of component TETRIX_739083_AXLE_2012.PRT from TETRIX_739083_2012.ASM with id path [ 1042 47 44 ] will be suppressed because of invalid constraint(s).
+!%CWОшибка сборки на основе текущего определения соединения.
+!%CIРегенерация A-DETAILED_RAIL2 завершена - подавлено констр. элементов или компонентов: 3.
+!%CIРегенерация A-CAPTURE_BALL3_NXTMOTOR2 завершена - подавлено констр. элементов или компонентов: 4.
+!%CIРегенерация A-CAPTURE_BALL3-MODULE завершена - подавлено констр. элементов или компонентов: 22.
+!%CIРегенерация 150315 завершена - подавлено констр. элементов или компонентов: 2.
+!ProgressBarDlg: Regen Completed
+!%CIДеталь 'NXT_MOTOR_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'NXT_MOTOR_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_MID' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'TETRIX_739083_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'NXT_MOTOR_2012' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-CAPTURE_BALL2_VANE_FIX' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_30' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_30' не изменилась с момента последней регенерации.
+!%CIДеталь 'A-DETAILED_RAIL_35' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!%CIДеталь 'GEAR_1' не изменилась с момента последней регенерации.
+!21-Mar-15 21:54:49  End   F:\robotics_model_creo\150315.asm.26
+!%CWНовые объекты, созданные в данной учебной версии Creo Parametric, не будут
+!%C_совместимы с коммерческой лицензией Creo Parametric.
+< 0 0.986074 1464 0 0 832 1920 0 0 1080 13
+!mem_use INCREASE Blocks 3580130, AppSize 354438480, SysSize 402912696
+< 0 0.982519 1464 0 0 829 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Close `SA_BROWSER_WELCOME_SCREEN` `SA_BROWSER_WELCOME_SCREEN`
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Activate `main_dlg_cur` `EMBED_BROWSER Close`
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ Activate `main_dlg_cur` `igToolbar_AncestorIGT_IGT_GRP_inh397369119.proe_win|.mcs29658718_mp|select_a\
+ll_check` 0
+!%CIОси не будут отображаться.
+!%CIОпорные точки не могут быть отображены.
+!%CIСистемы координат не будут отображаться.
+!%CIОпорные плоскости не будут отображены.
+~ Enter `main_dlg_cur` `proe_win` 9 1169 218 0 1538 1464 829 1920 1080 314635
+~ Move `main_dlg_cur` `proe_win` 9 1169 218 0 2 1464 829 1920 1080 314635
+~ Move `main_dlg_cur` `proe_win` 9 1170 218 0 514 1464 829 1920 1080 314667
+~ Move `main_dlg_cur` `proe_win` 9 1170 217 0 1026 1464 829 1920 1080 314728
+~ Move `main_dlg_cur` `proe_win` 9 1171 214 0 1538 1464 829 1920 1080 314745
+~ Move `main_dlg_cur` `proe_win` 9 1172 210 0 1538 1464 829 1920 1080 314757
+~ Move `main_dlg_cur` `proe_win` 9 1174 207 0 1538 1464 829 1920 1080 314769
+~ Move `main_dlg_cur` `proe_win` 9 1174 204 0 1026 1464 829 1920 1080 314778
+~ Move `main_dlg_cur` `proe_win` 9 1175 202 0 1538 1464 829 1920 1080 314786
+~ Move `main_dlg_cur` `proe_win` 9 1175 201 0 1026 1464 829 1920 1080 314794
+~ Move `main_dlg_cur` `proe_win` 9 1176 200 0 1538 1464 829 1920 1080 314800
+~ Move `main_dlg_cur` `proe_win` 9 1177 199 0 1538 1464 829 1920 1080 314806
+~ Move `main_dlg_cur` `proe_win` 9 1178 197 0 1538 1464 829 1920 1080 314812
+~ Move `main_dlg_cur` `proe_win` 9 1178 195 0 1026 1464 829 1920 1080 314820
+~ Move `main_dlg_cur` `proe_win` 9 1179 193 0 1538 1464 829 1920 1080 314830
+~ Move `main_dlg_cur` `proe_win` 9 1179 191 0 1026 1464 829 1920 1080 314836
+~ Move `main_dlg_cur` `proe_win` 9 1179 190 0 1026 1464 829 1920 1080 314843
+~ Move `main_dlg_cur` `proe_win` 9 1180 189 0 1538 1464 829 1920 1080 314849
+~ Move `main_dlg_cur` `proe_win` 9 1180 187 0 1026 1464 829 1920 1080 314856
+~ Move `main_dlg_cur` `proe_win` 9 1180 186 0 1026 1464 829 1920 1080 314862
+~ Move `main_dlg_cur` `proe_win` 9 1180 184 0 1026 1464 829 1920 1080 314868
+~ Move `main_dlg_cur` `proe_win` 9 1180 183 0 1026 1464 829 1920 1080 314874
+~ Move `main_dlg_cur` `proe_win` 9 1180 181 0 1026 1464 829 1920 1080 314881
+~ Move `main_dlg_cur` `proe_win` 9 1180 179 0 1026 1464 829 1920 1080 314888
+~ Move `main_dlg_cur` `proe_win` 9 1179 177 0 1538 1464 829 1920 1080 314894
+~ Move `main_dlg_cur` `proe_win` 9 1177 175 0 1538 1464 829 1920 1080 314902
+~ Move `main_dlg_cur` `proe_win` 9 1176 173 0 1538 1464 829 1920 1080 314908
+~ Move `main_dlg_cur` `proe_win` 9 1175 171 0 1538 1464 829 1920 1080 314914
+~ Move `main_dlg_cur` `proe_win` 9 1173 170 0 1538 1464 829 1920 1080 314920
+~ Move `main_dlg_cur` `proe_win` 9 1172 168 0 1538 1464 829 1920 1080 314926
+~ Move `main_dlg_cur` `proe_win` 9 1171 166 0 1538 1464 829 1920 1080 314932
+~ Move `main_dlg_cur` `proe_win` 9 1169 164 0 1538 1464 829 1920 1080 314939
+~ Move `main_dlg_cur` `proe_win` 9 1167 163 0 1538 1464 829 1920 1080 314944
+~ Move `main_dlg_cur` `proe_win` 9 1165 162 0 1538 1464 829 1920 1080 314951
+~ Move `main_dlg_cur` `proe_win` 9 1164 161 0 1538 1464 829 1920 1080 314956
+~ Move `main_dlg_cur` `proe_win` 9 1161 160 0 1538 1464 829 1920 1080 314974
+~ Move `main_dlg_cur` `proe_win` 9 1160 159 0 1538 1464 829 1920 1080 315006
+~ Move `main_dlg_cur` `proe_win` 9 1157 158 0 1538 1464 829 1920 1080 315022
+~ Move `main_dlg_cur` `proe_win` 9 1154 156 0 1538 1464 829 1920 1080 315034
+~ Move `main_dlg_cur` `proe_win` 9 1151 155 0 1538 1464 829 1920 1080 315044
+~ Move `main_dlg_cur` `proe_win` 9 1149 154 0 1538 1464 829 1920 1080 315056
+** 0.923402 0.814234 0 4 4
+0.923402 0.687010 M 0 0.982518519 0
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1101 252 0 2 1464 829 1920 1080 315514
+~ Move `main_dlg_cur` `proe_win` 9 1100 252 0 514 1464 829 1920 1080 315520
+~ Move `main_dlg_cur` `proe_win` 9 1099 253 0 1538 1464 829 1920 1080 315522
+~ Move `main_dlg_cur` `proe_win` 9 1098 253 0 514 1464 829 1920 1080 315528
+~ Move `main_dlg_cur` `proe_win` 9 1097 253 0 514 1464 829 1920 1080 315536
+~ Move `main_dlg_cur` `proe_win` 9 1096 253 0 514 1464 829 1920 1080 315542
+~ Move `main_dlg_cur` `proe_win` 9 1096 254 0 1026 1464 829 1920 1080 315544
+~ Move `main_dlg_cur` `proe_win` 9 1095 254 0 514 1464 829 1920 1080 315548
+~ Move `main_dlg_cur` `proe_win` 9 1094 255 0 1538 1464 829 1920 1080 315554
+~ Move `main_dlg_cur` `proe_win` 9 1089 256 0 1538 1464 829 1920 1080 315585
+~ Move `main_dlg_cur` `proe_win` 9 1085 258 0 1538 1464 829 1920 1080 315617
+~ Move `main_dlg_cur` `proe_win` 9 1080 259 0 1538 1464 829 1920 1080 315650
+~ Move `main_dlg_cur` `proe_win` 9 1075 259 0 514 1464 829 1920 1080 315681
+~ Move `main_dlg_cur` `proe_win` 9 1064 257 0 1538 1464 829 1920 1080 315714
+~ Move `main_dlg_cur` `proe_win` 9 1049 254 0 1538 1464 829 1920 1080 315747
+~ Move `main_dlg_cur` `proe_win` 9 1043 251 0 1538 1464 829 1920 1080 315779
+~ Move `main_dlg_cur` `proe_win` 9 1034 244 0 1538 1464 829 1920 1080 315813
+~ Move `main_dlg_cur` `proe_win` 9 1030 244 0 514 1464 829 1920 1080 315844
+~ Move `main_dlg_cur` `proe_win` 9 1030 243 0 1026 1464 829 1920 1080 315876
+~ Move `main_dlg_cur` `proe_win` 9 1030 242 0 1026 1464 829 1920 1080 315914
+~ Move `main_dlg_cur` `proe_win` 9 1029 234 0 1538 1464 829 1920 1080 315945
+~ Move `main_dlg_cur` `proe_win` 9 1032 224 0 1538 1464 829 1920 1080 315977
+~ Move `main_dlg_cur` `proe_win` 9 1034 215 0 1538 1464 829 1920 1080 316013
+~ Move `main_dlg_cur` `proe_win` 9 1035 214 0 1538 1464 829 1920 1080 316043
+~ Move `main_dlg_cur` `proe_win` 9 1038 212 0 1538 1464 829 1920 1080 316077
+~ Move `main_dlg_cur` `proe_win` 9 1050 209 0 1538 1464 829 1920 1080 316110
+~ Move `main_dlg_cur` `proe_win` 9 1086 197 0 1538 1464 829 1920 1080 316142
+~ Move `main_dlg_cur` `proe_win` 9 1104 190 0 1538 1464 829 1920 1080 316177
+~ Move `main_dlg_cur` `proe_win` 9 1104 189 0 1026 1464 829 1920 1080 316209
+~ Move `main_dlg_cur` `proe_win` 9 1104 185 0 1026 1464 829 1920 1080 316241
+~ Move `main_dlg_cur` `proe_win` 9 1104 181 0 1026 1464 829 1920 1080 316272
+~ Move `main_dlg_cur` `proe_win` 9 1103 177 0 1538 1464 829 1920 1080 316304
+~ Move `main_dlg_cur` `proe_win` 9 1102 172 0 1538 1464 829 1920 1080 316336
+~ Move `main_dlg_cur` `proe_win` 9 1101 169 0 1538 1464 829 1920 1080 316370
+~ Move `main_dlg_cur` `proe_win` 9 1100 162 0 1538 1464 829 1920 1080 316402
+~ Move `main_dlg_cur` `proe_win` 9 1094 147 0 1538 1464 829 1920 1080 316435
+~ Move `main_dlg_cur` `proe_win` 9 1081 124 0 1538 1464 829 1920 1080 316469
+~ Move `main_dlg_cur` `proe_win` 9 1072 114 0 1538 1464 829 1920 1080 316502
+~ Move `main_dlg_cur` `proe_win` 9 1070 113 0 1538 1464 829 1920 1080 316533
+~ Move `main_dlg_cur` `proe_win` 9 1066 113 0 514 1464 829 1920 1080 316566
+~ Move `main_dlg_cur` `proe_win` 9 1065 113 0 514 1464 829 1920 1080 316600
+~ Move `main_dlg_cur` `proe_win` 9 1064 113 0 514 1464 829 1920 1080 316634
+~ Move `main_dlg_cur` `proe_win` 9 1061 116 0 1538 1464 829 1920 1080 316665
+~ Move `main_dlg_cur` `proe_win` 9 1058 123 0 1538 1464 829 1920 1080 316699
+~ Move `main_dlg_cur` `proe_win` 9 1057 127 0 1538 1464 829 1920 1080 316730
+~ Move `main_dlg_cur` `proe_win` 9 1057 128 0 1026 1464 829 1920 1080 316764
+~ Move `main_dlg_cur` `proe_win` 9 1057 137 0 1026 1464 829 1920 1080 316796
+~ Move `main_dlg_cur` `proe_win` 9 1058 144 0 1538 1464 829 1920 1080 316828
+~ Move `main_dlg_cur` `proe_win` 9 1061 150 0 1538 1464 829 1920 1080 316859
+~ Move `main_dlg_cur` `proe_win` 9 1061 149 0 1026 1464 829 1920 1080 316934
+~ Move `main_dlg_cur` `proe_win` 9 1060 141 0 1538 1464 829 1920 1080 316976
+~ Move `main_dlg_cur` `proe_win` 9 1058 135 0 1538 1464 829 1920 1080 317003
+~ Move `main_dlg_cur` `proe_win` 9 1055 127 0 1538 1464 829 1920 1080 317033
+~ Move `main_dlg_cur` `proe_win` 9 1054 119 0 1538 1464 829 1920 1080 317066
+~ Move `main_dlg_cur` `proe_win` 9 1051 113 0 1538 1464 829 1920 1080 317099
+~ Move `main_dlg_cur` `proe_win` 9 1047 104 0 1538 1464 829 1920 1080 317131
+~ Move `main_dlg_cur` `proe_win` 9 1043 94 0 1538 1464 829 1920 1080 317163
+~ Move `main_dlg_cur` `proe_win` 9 1042 93 0 1538 1464 829 1920 1080 317196
+~ Move `main_dlg_cur` `proe_win` 9 1042 92 0 1026 1464 829 1920 1080 317456
+~ Move `main_dlg_cur` `proe_win` 9 1043 91 0 1538 1464 829 1920 1080 317505
+~ Move `main_dlg_cur` `proe_win` 9 1044 90 0 1538 1464 829 1920 1080 317532
+~ Move `main_dlg_cur` `proe_win` 9 1046 89 0 1538 1464 829 1920 1080 317562
+~ Move `main_dlg_cur` `proe_win` 9 1049 88 0 1538 1464 829 1920 1080 317595
+~ Move `main_dlg_cur` `proe_win` 9 1050 88 0 514 1464 829 1920 1080 317627
+~ Move `main_dlg_cur` `proe_win` 9 1053 87 0 1538 1464 829 1920 1080 317658
+~ Move `main_dlg_cur` `proe_win` 9 1054 87 0 514 1464 829 1920 1080 317690
+~ Move `main_dlg_cur` `proe_win` 9 1054 86 0 1026 1464 829 1920 1080 317721
+~ Move `main_dlg_cur` `proe_win` 9 1055 86 0 514 1464 829 1920 1080 317754
+~ Move `main_dlg_cur` `proe_win` 9 1056 86 0 514 1464 829 1920 1080 317785
+~ Move `main_dlg_cur` `proe_win` 9 1057 86 0 514 1464 829 1920 1080 317834
+~ Move `main_dlg_cur` `proe_win` 9 1058 87 0 1538 1464 829 1920 1080 317855
+~ Move `main_dlg_cur` `proe_win` 9 1062 92 0 1538 1464 829 1920 1080 317885
+~ Move `main_dlg_cur` `proe_win` 9 1067 100 0 1538 1464 829 1920 1080 317918
+~ Move `main_dlg_cur` `proe_win` 9 1074 111 0 1538 1464 829 1920 1080 317951
+~ Move `main_dlg_cur` `proe_win` 9 1077 116 0 1538 1464 829 1920 1080 317982
+~ Move `main_dlg_cur` `proe_win` 9 1079 122 0 1538 1464 829 1920 1080 318016
+~ Move `main_dlg_cur` `proe_win` 9 1079 124 0 1026 1464 829 1920 1080 318049
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 1079 124 0 0 1464 829 1920 1080 318086
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node1` \
+ 2
+!A-PLEXIGLASS_BACK.PRT
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 2 `node1` `node2` \
+ 2
+!A-PLEXIGLASS_FRONT.PRT
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node1` \
+ 2
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 2 `node1` `node2` \
+ 2
+!A-PLEXIGLASS_FRONT.PRT
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 3 `node1` `node2` `node3` \
+ 2
+!A-PLEXIGLASS_RIGHT.PRT
+~ Select `main_dlg_cur` `PHTLeft.AssyTree` 4 `node1` `node2` `node3` `node11` \
+ 2
+!A-PLEXIGLASS_LEFT.PRT
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node11`
+~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`
+~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`
+~ Command `ProCmdHideFeat_PushBtn@PopupMenuTree` 
+!Undo: added rec_id 2485 type 10600 
+~ MButtonArm `main_dlg_cur` `proe_win` 9 1041 442 0 2 1464 829 1920 1080 338167
+~ Move `main_dlg_cur` `proe_win` 9 1040 442 0 514 1464 829 1920 1080 338214
+~ Move `main_dlg_cur` `proe_win` 9 1040 441 0 1026 1464 829 1920 1080 338218
+~ Move `main_dlg_cur` `proe_win` 9 1039 440 0 1538 1464 829 1920 1080 338220
+~ Move `main_dlg_cur` `proe_win` 9 1038 440 0 514 1464 829 1920 1080 338224
+~ Move `main_dlg_cur` `proe_win` 9 1037 439 0 1538 1464 829 1920 1080 338228
+~ Move `main_dlg_cur` `proe_win` 9 1036 439 0 514 1464 829 1920 1080 338234
+~ Move `main_dlg_cur` `proe_win` 9 1035 439 0 514 1464 829 1920 1080 338236
+~ Move `main_dlg_cur` `proe_win` 9 1035 438 0 1026 1464 829 1920 1080 338238
+~ Move `main_dlg_cur` `proe_win` 9 1034 438 0 514 1464 829 1920 1080 338240
+~ Move `main_dlg_cur` `proe_win` 9 1030 436 0 1538 1464 829 1920 1080 338292
+~ Move `main_dlg_cur` `proe_win` 9 1029 436 0 514 1464 829 1920 1080 338404
+~ Move `main_dlg_cur` `proe_win` 9 1008 443 0 1538 1464 829 1920 1080 338438
+~ Move `main_dlg_cur` `proe_win` 9 988 451 0 1538 1464 829 1920 1080 338463
+~ Move `main_dlg_cur` `proe_win` 9 971 458 0 1538 1464 829 1920 1080 338496
+~ Move `main_dlg_cur` `proe_win` 9 966 463 0 1538 1464 829 1920 1080 338525
+~ Move `main_dlg_cur` `proe_win` 9 964 465 0 1538 1464 829 1920 1080 338560
+~ Move `main_dlg_cur` `proe_win` 9 964 466 0 1026 1464 829 1920 1080 338668
+~ Move `main_dlg_cur` `proe_win` 9 967 471 0 1538 1464 829 1920 1080 338687
+~ Move `main_dlg_cur` `proe_win` 9 983 479 0 1538 1464 829 1920 1080 338718
+~ Move `main_dlg_cur` `proe_win` 9 997 482 0 1538 1464 829 1920 1080 338752
+~ Move `main_dlg_cur` `proe_win` 9 1002 482 0 514 1464 829 1920 1080 338782
+~ Move `main_dlg_cur` `proe_win` 9 1004 481 0 1538 1464 829 1920 1080 338815
+~ Move `main_dlg_cur` `proe_win` 9 1015 478 0 1538 1464 829 1920 1080 338848
+~ Move `main_dlg_cur` `proe_win` 9 1027 474 0 1538 1464 829 1920 1080 338878
+~ Move `main_dlg_cur` `proe_win` 9 1033 469 0 1538 1464 829 1920 1080 338910
+~ Move `main_dlg_cur` `proe_win` 9 1035 463 0 1538 1464 829 1920 1080 338944
+~ Move `main_dlg_cur` `proe_win` 9 1035 459 0 1026 1464 829 1920 1080 338974
+~ Move `main_dlg_cur` `proe_win` 9 1030 446 0 1538 1464 829 1920 1080 339008
+~ Move `main_dlg_cur` `proe_win` 9 1021 434 0 1538 1464 829 1920 1080 339038
+~ Move `main_dlg_cur` `proe_win` 9 1015 426 0 1538 1464 829 1920 1080 339071
+~ Move `main_dlg_cur` `proe_win` 9 1013 424 0 1538 1464 829 1920 1080 339104
+~ Move `main_dlg_cur` `proe_win` 9 1012 424 0 514 1464 829 1920 1080 339223
+~ Move `main_dlg_cur` `proe_win` 9 1009 425 0 1538 1464 829 1920 1080 339246
+~ Move `main_dlg_cur` `proe_win` 9 1006 427 0 1538 1464 829 1920 1080 339274
+~ Move `main_dlg_cur` `proe_win` 9 1006 428 0 1026 1464 829 1920 1080 339306
+~ Move `main_dlg_cur` `proe_win` 9 1005 428 0 514 1464 829 1920 1080 339339
+~ Move `main_dlg_cur` `proe_win` 9 997 429 0 1538 1464 829 1920 1080 339371
+~ Move `main_dlg_cur` `proe_win` 9 987 429 0 514 1464 829 1920 1080 339404
+~ Move `main_dlg_cur` `proe_win` 9 979 429 0 514 1464 829 1920 1080 339437
+~ Move `main_dlg_cur` `proe_win` 9 973 427 0 1538 1464 829 1920 1080 339471
+~ Move `main_dlg_cur` `proe_win` 9 968 421 0 1538 1464 829 1920 1080 339503
+~ Move `main_dlg_cur` `proe_win` 9 965 418 0 1538 1464 829 1920 1080 339534
+~ Move `main_dlg_cur` `proe_win` 9 965 417 0 1026 1464 829 1920 1080 339653
+~ Move `main_dlg_cur` `proe_win` 9 971 417 0 514 1464 829 1920 1080 339676
+~ Move `main_dlg_cur` `proe_win` 9 989 417 0 514 1464 829 1920 1080 339706
+~ Move `main_dlg_cur` `proe_win` 9 1005 418 0 1538 1464 829 1920 1080 339737
+~ Move `main_dlg_cur` `proe_win` 9 1015 418 0 514 1464 829 1920 1080 339770
+~ Move `main_dlg_cur` `proe_win` 9 1016 419 0 1538 1464 829 1920 1080 339802
+~ Move `main_dlg_cur` `proe_win` 9 1022 421 0 1538 1464 829 1920 1080 339833
+~ Move `main_dlg_cur` `proe_win` 9 1040 426 0 1538 1464 829 1920 1080 339866
+~ Move `main_dlg_cur` `proe_win` 9 1066 432 0 1538 1464 829 1920 1080 339899
+~ Move `main_dlg_cur` `proe_win` 9 1077 433 0 1538 1464 829 1920 1080 339930
+~ Move `main_dlg_cur` `proe_win` 9 1080 430 0 1538 1464 829 1920 1080 339964
+~ Move `main_dlg_cur` `proe_win` 9 1079 416 0 1538 1464 829 1920 1080 339998
+~ Move `main_dlg_cur` `proe_win` 9 1070 395 0 1538 1464 829 1920 1080 340028
+~ Move `main_dlg_cur` `proe_win` 9 1062 378 0 1538 1464 829 1920 1080 340061
+~ Move `main_dlg_cur` `proe_win` 9 1057 370 0 1538 1464 829 1920 1080 340093
+~ Move `main_dlg_cur` `proe_win` 9 1050 363 0 1538 1464 829 1920 1080 340126
+~ Move `main_dlg_cur` `proe_win` 9 1044 359 0 1538 1464 829 1920 1080 340158
+~ Move `main_dlg_cur` `proe_win` 9 1040 359 0 514 1464 829 1920 1080 340190
+~ Move `main_dlg_cur` `proe_win` 9 1029 370 0 1538 1464 829 1920 1080 340222
+~ Move `main_dlg_cur` `proe_win` 9 1014 415 0 1538 1464 829 1920 1080 340257
+~ Move `main_dlg_cur` `proe_win` 9 1010 438 0 1538 1464 829 1920 1080 340288
+~ Move `main_dlg_cur` `proe_win` 9 1017 463 0 1538 1464 829 1920 1080 340321
+~ Move `main_dlg_cur` `proe_win` 9 1026 484 0 1538 1464 829 1920 1080 340353
+~ Move `main_dlg_cur` `proe_win` 9 1032 499 0 1538 1464 829 1920 1080 340386
+~ Move `main_dlg_cur` `proe_win` 9 1033 507 0 1538 1464 829 1920 1080 340419
+~ Move `main_dlg_cur` `proe_win` 9 1030 516 0 1538 1464 829 1920 1080 340452
+~ Move `main_dlg_cur` `proe_win` 9 1021 535 0 1538 1464 829 1920 1080 340482
+~ Move `main_dlg_cur` `proe_win` 9 1009 560 0 1538 1464 829 1920 1080 340515
+~ Move `main_dlg_cur` `proe_win` 9 1003 574 0 1538 1464 829 1920 1080 340548
+~ Move `main_dlg_cur` `proe_win` 9 1003 581 0 1026 1464 829 1920 1080 340579
+~ Move `main_dlg_cur` `proe_win` 9 1003 583 0 1026 1464 829 1920 1080 340610
+~ Move `main_dlg_cur` `proe_win` 9 1003 582 0 1026 1464 829 1920 1080 340645
+~ Move `main_dlg_cur` `proe_win` 9 999 575 0 1538 1464 829 1920 1080 340675
+~ Move `main_dlg_cur` `proe_win` 9 984 564 0 1538 1464 829 1920 1080 340708
+~ Move `main_dlg_cur` `proe_win` 9 964 554 0 1538 1464 829 1920 1080 340740
+~ Move `main_dlg_cur` `proe_win` 9 959 553 0 1538 1464 829 1920 1080 340772
+~ Move `main_dlg_cur` `proe_win` 9 960 553 0 514 1464 829 1920 1080 340879
+~ Move `main_dlg_cur` `proe_win` 9 969 555 0 1538 1464 829 1920 1080 340904
+~ Move `main_dlg_cur` `proe_win` 9 988 555 0 514 1464 829 1920 1080 340932
+~ Move `main_dlg_cur` `proe_win` 9 1009 553 0 1538 1464 829 1920 1080 340963
+~ Move `main_dlg_cur` `proe_win` 9 1012 553 0 514 1464 829 1920 1080 340996
+~ Move `main_dlg_cur` `proe_win` 9 1012 552 0 1026 1464 829 1920 1080 341171
+~ Move `main_dlg_cur` `proe_win` 9 1010 549 0 1538 1464 829 1920 1080 341197
+~ Move `main_dlg_cur` `proe_win` 9 1007 545 0 1538 1464 829 1920 1080 341225
+~ Move `main_dlg_cur` `proe_win` 9 1004 540 0 1538 1464 829 1920 1080 341255
+~ Move `main_dlg_cur` `proe_win` 9 1002 533 0 1538 1464 829 1920 1080 341286
+~ Move `main_dlg_cur` `proe_win` 9 996 525 0 1538 1464 829 1920 1080 341319
+~ Move `main_dlg_cur` `proe_win` 9 993 522 0 1538 1464 829 1920 1080 341350
+~ Move `main_dlg_cur` `proe_win` 9 990 521 0 1538 1464 829 1920 1080 341380
+~ Move `main_dlg_cur` `proe_win` 9 988 520 0 1538 1464 829 1920 1080 341414
+~ Move `main_dlg_cur` `proe_win` 9 986 519 0 1538 1464 829 1920 1080 341443
+~ Move `main_dlg_cur` `proe_win` 9 986 518 0 1026 1464 829 1920 1080 341547
+~ Move `main_dlg_cur` `proe_win` 9 984 514 0 1538 1464 829 1920 1080 341568
+~ Move `main_dlg_cur` `proe_win` 9 983 510 0 1538 1464 829 1920 1080 341596
+~ Move `main_dlg_cur` `proe_win` 9 981 504 0 1538 1464 829 1920 1080 341625
+~ Move `main_dlg_cur` `proe_win` 9 981 503 0 1026 1464 829 1920 1080 341656
+~ Move `main_dlg_cur` `proe_win` 9 979 503 0 514 1464 829 1920 1080 341686
+~ Move `main_dlg_cur` `proe_win` 9 977 501 0 1538 1464 829 1920 1080 341718
+~ Move `main_dlg_cur` `proe_win` 9 968 501 0 514 1464 829 1920 1080 341750
+~ Move `main_dlg_cur` `proe_win` 9 965 502 0 1538 1464 829 1920 1080 341781
+~ Move `main_dlg_cur` `proe_win` 9 963 503 0 1538 1464 829 1920 1080 341813
+~ Move `main_dlg_cur` `proe_win` 9 960 506 0 1538 1464 829 1920 1080 341843
+~ Move `main_dlg_cur` `proe_win` 9 959 507 0 1538 1464 829 1920 1080 341876
+~ Move `main_dlg_cur` `proe_win` 9 959 506 0 1026 1464 829 1920 1080 341985
+~ Move `main_dlg_cur` `proe_win` 9 959 503 0 1026 1464 829 1920 1080 342022
+~ Move `main_dlg_cur` `proe_win` 9 962 501 0 1538 1464 829 1920 1080 342052
+~ Move `main_dlg_cur` `proe_win` 9 971 501 0 514 1464 829 1920 1080 342080
+~ Move `main_dlg_cur` `proe_win` 9 992 501 0 514 1464 829 1920 1080 342114
+~ Move `main_dlg_cur` `proe_win` 9 995 501 0 514 1464 829 1920 1080 342146
+~ Move `main_dlg_cur` `proe_win` 9 996 501 0 514 1464 829 1920 1080 342213
+~ Move `main_dlg_cur` `proe_win` 9 997 498 0 1538 1464 829 1920 1080 342231
+~ Move `main_dlg_cur` `proe_win` 9 1001 490 0 1538 1464 829 1920 1080 342262
+~ Move `main_dlg_cur` `proe_win` 9 1005 485 0 1538 1464 829 1920 1080 342295
+~ Move `main_dlg_cur` `proe_win` 9 1006 484 0 1538 1464 829 1920 1080 342324
+~ Move `main_dlg_cur` `proe_win` 9 1007 482 0 1538 1464 829 1920 1080 342357
+~ Move `main_dlg_cur` `proe_win` 9 1008 478 0 1538 1464 829 1920 1080 342387
+~ Move `main_dlg_cur` `proe_win` 9 1008 475 0 1026 1464 829 1920 1080 342420
+~ Move `main_dlg_cur` `proe_win` 9 1007 472 0 1538 1464 829 1920 1080 342452
+~ Move `main_dlg_cur` `proe_win` 9 1006 471 0 1538 1464 829 1920 1080 342482
+~ Move `main_dlg_cur` `proe_win` 9 1005 470 0 1538 1464 829 1920 1080 342515
+~ Move `main_dlg_cur` `proe_win` 9 1003 466 0 1538 1464 829 1920 1080 342548
+~ Move `main_dlg_cur` `proe_win` 9 1000 461 0 1538 1464 829 1920 1080 342578
+~ Move `main_dlg_cur` `proe_win` 9 998 456 0 1538 1464 829 1920 1080 342610
+~ Move `main_dlg_cur` `proe_win` 9 996 455 0 1538 1464 829 1920 1080 342644
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 996 455 0 0 1464 829 1920 1080 342702
+~ Wheel `main_dlg_cur` `proe_win` 9 821 474 458752 1536 1464 829 1920 1080 342963
+~ Wheel `main_dlg_cur` `proe_win` 9 813 474 458752 512 1464 829 1920 1080 342995
+~ Wheel `main_dlg_cur` `proe_win` 9 812 474 458752 512 1464 829 1920 1080 343029
+~ MButtonArm `main_dlg_cur` `proe_win` 9 832 476 0 2 1464 829 1920 1080 343313
+~ Move `main_dlg_cur` `proe_win` 9 833 476 0 514 1464 829 1920 1080 343313
+~ Move `main_dlg_cur` `proe_win` 9 834 476 0 514 1464 829 1920 1080 343315
+~ Move `main_dlg_cur` `proe_win` 9 836 477 0 1538 1464 829 1920 1080 343317
+~ Move `main_dlg_cur` `proe_win` 9 837 477 0 514 1464 829 1920 1080 343319
+~ Move `main_dlg_cur` `proe_win` 9 838 477 0 514 1464 829 1920 1080 343321
+~ Move `main_dlg_cur` `proe_win` 9 839 477 0 514 1464 829 1920 1080 343323
+~ Move `main_dlg_cur` `proe_win` 9 844 477 0 514 1464 829 1920 1080 343343
+~ Move `main_dlg_cur` `proe_win` 9 848 479 0 1538 1464 829 1920 1080 343382
+~ Move `main_dlg_cur` `proe_win` 9 858 482 0 1538 1464 829 1920 1080 343423
+~ Move `main_dlg_cur` `proe_win` 9 875 482 0 514 1464 829 1920 1080 343464
+~ Move `main_dlg_cur` `proe_win` 9 888 477 0 1538 1464 829 1920 1080 343504
+~ Move `main_dlg_cur` `proe_win` 9 900 473 0 1538 1464 829 1920 1080 343544
+~ Move `main_dlg_cur` `proe_win` 9 908 471 0 1538 1464 829 1920 1080 343584
+~ Move `main_dlg_cur` `proe_win` 9 919 466 0 1538 1464 829 1920 1080 343626
+~ Move `main_dlg_cur` `proe_win` 9 934 456 0 1538 1464 829 1920 1080 343665
+~ Move `main_dlg_cur` `proe_win` 9 946 448 0 1538 1464 829 1920 1080 343707
+~ Move `main_dlg_cur` `proe_win` 9 949 443 0 1538 1464 829 1920 1080 343747
+~ Move `main_dlg_cur` `proe_win` 9 950 442 0 1538 1464 829 1920 1080 343782
+~ Move `main_dlg_cur` `proe_win` 9 950 441 0 1026 1464 829 1920 1080 343820
+~ Move `main_dlg_cur` `proe_win` 9 946 433 0 1538 1464 829 1920 1080 343859
+~ Move `main_dlg_cur` `proe_win` 9 938 428 0 1538 1464 829 1920 1080 343895
+~ Move `main_dlg_cur` `proe_win` 9 937 427 0 1538 1464 829 1920 1080 343932
+~ Move `main_dlg_cur` `proe_win` 9 936 427 0 514 1464 829 1920 1080 344073
+~ Move `main_dlg_cur` `proe_win` 9 933 431 0 1538 1464 829 1920 1080 344107
+~ Move `main_dlg_cur` `proe_win` 9 931 438 0 1538 1464 829 1920 1080 344142
+~ Move `main_dlg_cur` `proe_win` 9 930 441 0 1538 1464 829 1920 1080 344178
+~ Move `main_dlg_cur` `proe_win` 9 928 443 0 1538 1464 829 1920 1080 344216
+~ Move `main_dlg_cur` `proe_win` 9 926 449 0 1538 1464 829 1920 1080 344254
+~ Move `main_dlg_cur` `proe_win` 9 921 456 0 1538 1464 829 1920 1080 344293
+~ Move `main_dlg_cur` `proe_win` 9 917 459 0 1538 1464 829 1920 1080 344332
+~ Move `main_dlg_cur` `proe_win` 9 917 460 0 1026 1464 829 1920 1080 344371
+~ Move `main_dlg_cur` `proe_win` 9 917 459 0 1026 1464 829 1920 1080 344577
+~ Move `main_dlg_cur` `proe_win` 9 916 452 0 1538 1464 829 1920 1080 344619
+~ Move `main_dlg_cur` `proe_win` 9 916 449 0 1026 1464 829 1920 1080 344650
+~ Move `main_dlg_cur` `proe_win` 9 916 446 0 1026 1464 829 1920 1080 344690
+~ Move `main_dlg_cur` `proe_win` 9 915 446 0 514 1464 829 1920 1080 344728
+~ Move `main_dlg_cur` `proe_win` 9 914 446 0 514 1464 829 1920 1080 344779
+~ Move `main_dlg_cur` `proe_win` 9 910 442 0 1538 1464 829 1920 1080 344809
+~ Move `main_dlg_cur` `proe_win` 9 899 437 0 1538 1464 829 1920 1080 344849
+~ Move `main_dlg_cur` `proe_win` 9 890 434 0 1538 1464 829 1920 1080 344890
+~ Move `main_dlg_cur` `proe_win` 9 889 434 0 514 1464 829 1920 1080 344927
+~ Move `main_dlg_cur` `proe_win` 9 888 433 0 1538 1464 829 1920 1080 344970
+~ Move `main_dlg_cur` `proe_win` 9 882 432 0 1538 1464 829 1920 1080 345013
+~ Move `main_dlg_cur` `proe_win` 9 882 431 0 1026 1464 829 1920 1080 345147
+~ Move `main_dlg_cur` `proe_win` 9 883 431 0 514 1464 829 1920 1080 345189
+~ Move `main_dlg_cur` `proe_win` 9 886 430 0 1538 1464 829 1920 1080 345221
+~ Move `main_dlg_cur` `proe_win` 9 888 429 0 1538 1464 829 1920 1080 345260
+~ Move `main_dlg_cur` `proe_win` 9 888 430 0 1026 1464 829 1920 1080 345323
+~ Move `main_dlg_cur` `proe_win` 9 891 436 0 1538 1464 829 1920 1080 345345
+~ Move `main_dlg_cur` `proe_win` 9 891 448 0 1026 1464 829 1920 1080 345385
+~ Move `main_dlg_cur` `proe_win` 9 890 458 0 1538 1464 829 1920 1080 345427
+~ Move `main_dlg_cur` `proe_win` 9 885 464 0 1538 1464 829 1920 1080 345469
+~ Move `main_dlg_cur` `proe_win` 9 872 470 0 1538 1464 829 1920 1080 345512
+~ Move `main_dlg_cur` `proe_win` 9 864 471 0 1538 1464 829 1920 1080 345553
+~ Move `main_dlg_cur` `proe_win` 9 856 470 0 1538 1464 829 1920 1080 345595
+~ Move `main_dlg_cur` `proe_win` 9 847 467 0 1538 1464 829 1920 1080 345634
+~ Move `main_dlg_cur` `proe_win` 9 841 465 0 1538 1464 829 1920 1080 345674
+~ Move `main_dlg_cur` `proe_win` 9 830 463 0 1538 1464 829 1920 1080 345715
+~ Move `main_dlg_cur` `proe_win` 9 820 463 0 514 1464 829 1920 1080 345757
+~ Move `main_dlg_cur` `proe_win` 9 819 462 0 1538 1464 829 1920 1080 345797
+~ Move `main_dlg_cur` `proe_win` 9 819 461 0 1026 1464 829 1920 1080 345897
+~ Move `main_dlg_cur` `proe_win` 9 828 455 0 1538 1464 829 1920 1080 345943
+~ Move `main_dlg_cur` `proe_win` 9 832 452 0 1538 1464 829 1920 1080 345974
+~ Move `main_dlg_cur` `proe_win` 9 832 451 0 1026 1464 829 1920 1080 346061
+~ Move `main_dlg_cur` `proe_win` 9 835 449 0 1538 1464 829 1920 1080 346102
+~ Move `main_dlg_cur` `proe_win` 9 838 443 0 1538 1464 829 1920 1080 346136
+~ Move `main_dlg_cur` `proe_win` 9 839 439 0 1538 1464 829 1920 1080 346178
+~ Move `main_dlg_cur` `proe_win` 9 841 435 0 1538 1464 829 1920 1080 346219
+~ Move `main_dlg_cur` `proe_win` 9 842 435 0 514 1464 829 1920 1080 346295
+~ Move `main_dlg_cur` `proe_win` 9 848 436 0 1538 1464 829 1920 1080 346318
+~ Move `main_dlg_cur` `proe_win` 9 862 437 0 1538 1464 829 1920 1080 346357
+~ Move `main_dlg_cur` `proe_win` 9 865 437 0 514 1464 829 1920 1080 346399
+~ Move `main_dlg_cur` `proe_win` 9 867 442 0 1538 1464 829 1920 1080 346441
+~ Move `main_dlg_cur` `proe_win` 9 868 443 0 1538 1464 829 1920 1080 346480
+~ Move `main_dlg_cur` `proe_win` 9 868 444 0 1026 1464 829 1920 1080 346863
+~ Move `main_dlg_cur` `proe_win` 9 867 449 0 1538 1464 829 1920 1080 346906
+~ MButtonDisarm `main_dlg_cur` `proe_win` 9 867 449 0 0 1464 829 1920 1080 347007
+~ Wheel `main_dlg_cur` `proe_win` 9 756 471 458752 0 1464 829 1920 1080 347283
+~ Wheel `main_dlg_cur` `proe_win` 9 756 471 458752 0 1464 829 1920 1080 347315
+~ Wheel `main_dlg_cur` `proe_win` 9 753 471 393216 512 1464 829 1920 1080 347613
+~ Activate `main_dlg_cur` `main_dlg_cur`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
