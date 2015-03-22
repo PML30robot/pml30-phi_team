@@ -1,0 +1,54 @@
+\subsubsection{18.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	19:00 - 21:00
+	\item Purposes of meeting:
+	\begin{enumerate}
+		\item To make model of the lift.		  
+			  
+    \end{enumerate}
+   
+
+	\item Work that has been done:
+	\begin{enumerate}
+		\item It was found that we has only 7 beams. But for mount for motors that rotates wheels we need 12 (6 for each wheels pair). So it was decided to use 4 beams (2 for each pair) and fix short beams between the beam that limits base of robot and mount for wheel. So we need only 4 long beams and 16 short (4 for each wheel).
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.2\linewidth}
+		 		        		\center  
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.25]{days/18.03.15/images/01}}
+		 		        		\caption{New mount for motors}
+		 		        	\end{minipage}
+		 		        \end{figure}
+		\item They were made models of the slats. It was starting assembling model of the lift.		 		        				
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.2\linewidth}
+		 		        		\center  
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.25]{days/18.03.15/images/02}}
+		 		        		\caption{Model of the slats}
+		 		        	\end{minipage}
+		 		        \end{figure}		  		        			 		         
+    \end{enumerate}
+    
+	\item Result: 
+	\begin{enumerate}
+	  \item Mount for motors that rotates wheels was improved.
+	  
+	  \item Model of the slat was created
+      
+    \end{enumerate}
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}
+		\item To make model of the lift.
+		
+		\item To estimate location of center of gravity.
+		
+		\item To estimate optimal location for wheels.
+    \end{enumerate}     
+\end{enumerate}
+\fillpage

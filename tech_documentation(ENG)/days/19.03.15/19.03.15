@@ -1,0 +1,55 @@
+\subsubsection{19.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	16:00 - 00:00
+	\item Purposes of meeting:
+	\begin{enumerate}
+		\item To make model of the lift.
+		
+		\item To start assemble robot.		  
+			  
+    \end{enumerate}
+   
+
+	\item Work that has been done:
+	\begin{enumerate}
+		\item Today we decided to start assembling of the robot. It was assembled the base and mount for MEL.
+		
+		\item It was found that mount for second servo that moves MOB bends. So the gears sometimes doesn't touch each other. It was decided to install plate as on the first servo and strengthen corner of the mount by additional plate. The plate that connect shaft of the servo with axis was installed. The second plate was made but wasn't installed.
+				 		        \begin{figure}[H]
+				 		        	\begin{minipage}[h]{0.2\linewidth}
+				 		        		\center  
+				 		        	\end{minipage}
+				 		        	\begin{minipage}[h]{0.6\linewidth}
+				 		        		\center{\includegraphics[scale=0.1]{days/19.03.15/images/01}}
+				 		        		\caption{Plate that connect shaft of the servo with axis}
+				 		        	\end{minipage}
+				 		        \end{figure}
+		\item Model of the lift was made.				 		        		  		        			 		         
+    \end{enumerate}
+    
+	\item Result: 
+	\begin{enumerate}
+	  \item MOB was strengthened.
+	  
+	  \item Model of the lift was made.	
+	  
+	  \item Base of the robot was assembled.
+      
+    \end{enumerate}
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}	
+		\item To install the second plate on the mount for servo that moves MOB.
+		
+		\item To fix the lift on the robot's base.
+		
+		\item To fix MEL. 
+		
+		\item To estimate location of center of gravity.
+		
+		\item To estimate optimal location for wheels.
+    \end{enumerate}     
+\end{enumerate}
+\fillpage

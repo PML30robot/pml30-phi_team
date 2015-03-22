@@ -1,0 +1,73 @@
+\subsubsection{16.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	16:00 - 21:00
+	\item Purposes of meeting:
+	\begin{enumerate}
+		\item To elaborate mount for mators that rotates wheels.
+		
+		\item To elaborate new gripper for balls			  
+			  
+    \end{enumerate}
+   
+
+	\item Work that has been done:
+	\begin{enumerate}
+		\item Motors were fixed on the plate and connected with each other by gears. Also they were fixed gear where will fixed wheels. It allowed us to imagine how we should to fix motors and gears.
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.2\linewidth}
+		 		        		\center  
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.1]{days/16.03.15/images/01}}
+		 		        		\caption{Layout of the mount for motors}
+		 		        	\end{minipage}
+		 		        \end{figure}
+		 		        		
+		\item It was found that optimal clearence is when 3 beams from Tetrix set are fixed between motors and П-shaped beam that limits body of robot. But in this case we need screws with more length.
+		
+		\item The mount for motors was assembled in Creo.
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.2]{days/16.03.15/images/02}}
+		 		        		\caption{Location of gears}
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.2]{days/16.03.15/images/03}}
+		 		        		\caption{Beams that will fixed between motors and П-shaped beam}
+		 		        	\end{minipage}		 		        	
+		 		        \end{figure}
+		 	
+		 		        	
+		 		        
+		\item It was elaborated and added to the model of the robot new gripper for balls. The new gripper has this advantages: width of blades was increased (it allows to expand slope of action of the gripper) and axis of gripper was located higher (so it will be easer to push balls on the ramp ).
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.2]{days/16.03.15/images/04}}
+		 		        		\caption{Module of gripper}
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.2]{days/16.03.15/images/05}}
+		 		        		\caption{Gripper on the body of robot}
+		 		        	\end{minipage}		 		        	
+		 		        \end{figure}		
+		  		        			 		         
+    \end{enumerate}
+    
+	\item Result: 
+	\begin{enumerate}
+	  \item Mount for motors that rotates wheels and new gripper for balls were elaborated.
+      
+    \end{enumerate}
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}
+		\item To add the lift to Creo model of the robot.
+		
+		\item To estimate location of center of gravity.
+		
+		\item To install wheels (in Creo).
+    \end{enumerate}     
+\end{enumerate}
+\fillpage

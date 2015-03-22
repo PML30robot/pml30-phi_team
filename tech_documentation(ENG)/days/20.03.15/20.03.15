@@ -1,0 +1,65 @@
+\subsubsection{20.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	16:00 - 22:00
+	\item Purposes of meeting:
+	\begin{enumerate}
+		\item To install the second plate on the mount for servo that moves MOB.
+		
+		\item To fix the lift on the robot's base.
+		
+		\item To fix MEL. 		  
+			  
+    \end{enumerate}
+   
+
+	\item Work that has been done:
+	\begin{enumerate}
+		\item MEl was fixed on the robot's base.
+		
+		\item Elements of robot's base were connected with each other by additional beams. So it became more rigidly.
+		
+		\item It was started fixing of the lift. Also it was decided to fix crossbars of the lift more reliable.
+		
+		\item The second plate was installed on the mount for servo. So the corner with holes was connected with the back part of the mount and it stopped bend.
+				 		        \begin{figure}[H]
+				 		        	\begin{minipage}[h]{0.2\linewidth}
+				 		        		\center  
+				 		        	\end{minipage}
+				 		        	\begin{minipage}[h]{0.6\linewidth}
+				 		        		\center{\includegraphics[scale=0.1]{days/20.03.15/images/01}}
+				 		        		\caption{The second strengthening plate}
+				 		        	\end{minipage}
+				 		        \end{figure}
+		\item It was found that bucket can hook edges of axles around which rotates wheels. So it was decided to make new bucket that will more narrow and longer.				 		        		
+      
+    \end{enumerate}
+
+		\item Result: 
+		\begin{enumerate}
+			\item MEL was fixed.
+			
+			\item MOB was strenthened.	
+			
+			\item Base of the robot was strengthened.
+			
+			\item Lift partially fixed.
+			
+		\end{enumerate}    
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}	
+		
+		\item To fix the lift and make mounts for crossbars more reliable.
+		
+		\item To estimate location of center of gravity.
+		
+		\item To estimate optimal location for wheels.
+		
+		\item To fix wheels.
+		
+		\item To make new bucket.
+    \end{enumerate}     
+\end{enumerate}
+\fillpage

@@ -1,0 +1,87 @@
+\subsubsection{21.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	16:00 - 00:00
+	\item Purposes of meeting:
+	\begin{enumerate}
+		\item To fix the lift and make mounts for crossbars more reliable.
+		
+		\item To estimate location of center of gravity.
+		
+		\item To estimate optimal location for wheels.
+		
+		\item To fix wheels. 		  
+			  
+    \end{enumerate}
+   
+
+	\item Work that has been done:
+	\begin{enumerate}
+		\item Lift was fixed. It was decided that the top pair of slats slats shrinks by beam too much. So it lowers badly. It was decided to increase distanse between the slat and beam.
+		
+		\item Crossbars were fixed more reliable. One of the mount was equpped by additional plates. The ends of the other axes were flattened so that they can't pass throught the hole.
+				 		        \begin{figure}[H]
+				 		        	\begin{minipage}[h]{0.6\linewidth}
+				 		        		\center{\includegraphics[scale=0.04]{days/21.03.15/images/01}}
+				 		        		\caption{Additional plates}
+				 		        	\end{minipage}
+				 		        	\begin{minipage}[h]{0.1\linewidth}
+				 		        		\center{\includegraphics[scale=0.04]{days/21.03.15/images/02}}
+				 		        		\caption{Flattened crossbar}
+				 		        	\end{minipage}
+				 		        \end{figure}						 		        		
+      
+      \item It was installed gripper for balls. Blades weren't installed on it because we decided to use pieces of 6 liter bottle for this purpose. Today we didn't have a bottle.
+      
+      \item It was estimated the center of gravity and location of wheels.
+				 		        \begin{figure}[H]
+				 		        	\begin{minipage}[h]{0.6\linewidth}
+				 		        		\center{\includegraphics[scale=0.4]{days/21.03.15/images/03}}
+				 		        		\caption{Center of gravity}
+				 		        	\end{minipage}
+				 		        	\begin{minipage}[h]{0.1\linewidth}
+				 		        		\center{\includegraphics[scale=0.4]{days/21.03.15/images/04}}
+				 		        		\caption{Wheels}
+				 		        	\end{minipage}
+				 		        \end{figure}      
+      \item It was started assembling of module of motors that rotates wheels.
+      
+      \item Controllers for motors were fixed on the robot but weren't connected with battery and NXT.
+      
+      \item It was found that hook for autonomous ball get on the transverse beam that fixed on the top part of the MEL. So it was changes: corner that fixed on the gutter was bended and so the beam where fixed hook moved to back part. Also the beam where was fixed the screw was replaced by the plate from TETRIX set.
+				 		        \begin{figure}[H]
+				 		        	\begin{minipage}[h]{0.2\linewidth}
+				 		        		\center  
+				 		        	\end{minipage}
+				 		        	\begin{minipage}[h]{0.6\linewidth}
+				 		        		\center{\includegraphics[scale=0.07]{days/21.03.15/images/05}}
+				 		        		\caption{New mount for hook}
+				 		        	\end{minipage}
+				 		        \end{figure}      
+    \end{enumerate}
+
+		\item Result: 
+		\begin{enumerate}
+			\item Lift was fixed.
+			
+			\item Crossbars were fixed more reliable.
+			
+			\item Gripper for balls was fixed.	
+			
+			\item Controllers were fixed.
+			
+			\item Hook for autonomous ball was changed.
+			
+		\end{enumerate}    
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}	
+		\item To make new bucket.
+		
+		\item To make ramp for it.
+		
+		To install blades on the gripper for balls.
+    \end{enumerate}     
+\end{enumerate}
+\fillpage
