@@ -1,0 +1,43 @@
+\subsubsection{14.03.15}
+
+\begin{enumerate}
+	\item Time of beginning and ending of meeting:
+	16:00 - 21:30
+	\item Purposes of meeting:
+	\begin{enumerate}
+		\item To elaborate new mount for controllers.			  
+			  
+    \end{enumerate}
+   
+
+	\item Work that has been done:
+	\begin{enumerate}
+		\item It was decided to install the plate on the MEL (instead of П-shaped beam) and fix controller s on it. This mount was assemled in Creo.
+		
+		\item It was found that the hook for autonomous balls hit controllers. So it was decided to fix them between the П-shaped beam that fixed on the side of robot. Mount was assembled in Creo.
+		 		        \begin{figure}[H]
+		 		        	\begin{minipage}[h]{0.2\linewidth}
+		 		        		\center  
+		 		        	\end{minipage}
+		 		        	\begin{minipage}[h]{0.6\linewidth}
+		 		        		\center{\includegraphics[scale=0.25]{days/14.03.15/images/01}}
+		 		        		\caption{Mount for controllers}
+		 		        	\end{minipage}
+		 		        \end{figure}		 		 		        		 		        			
+		 		         	 			 		         
+    \end{enumerate}
+    
+	\item Result: 
+	\begin{enumerate}
+	  \item Mount for controllers was elaborated and assembled in Creo.
+      
+    \end{enumerate}
+    
+	\item Tasks for the next meetings:
+	\begin{enumerate}
+		\item To elaborate mount for motors that will rotate wheels.
+		
+		\item To elaborate new gripper for balls
+    \end{enumerate}     
+\end{enumerate}
+\fillpage

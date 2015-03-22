@@ -1,0 +1,55 @@
+\subsubsection{17.01.15}
+\begin{enumerate}
+	\item Time of beginning and ending of meeting: 16:00 - 21:00
+	
+	\item Purposes of meeting: 
+	\begin{enumerate}
+		\item To make the programme of autonomuos period that include ride from the ramp, put autonomuos balls to 60cm goal and move 60cm goal and 90cm goal to the parking zone.
+		
+		\item To understand how works IR-sensor.
+		
+		\item To write a programme for throwing autonomuos balls to the center goal (start from the parking zone).
+	
+	\end{enumerate}
+	\item Work that has been done:
+	\begin{enumerate}
+		\item It was decided to carry out moving of two rolling goals to the parking zone by the next algorithm: robot moves 60cm goal after the throwing balls into 60cm goal. Then it unfolds, rides to 90cm goal and moves it to the parking zone.
+		
+		\item Programme was wrote and tested. Result positive: robot can to complete it in 30 seconds.
+		
+		\item  IR-sensor was installed on the robot.
+
+		\begin{figure}[H]
+			\begin{minipage}[h]{0.2\linewidth}
+				\center  
+			\end{minipage}
+			\begin{minipage}[h]{0.6\linewidth}
+				\center{\includegraphics[scale=0.3]{days/17.01.15/images/01}}
+				
+				\caption{IR sensor}
+			\end{minipage}
+		\end{figure}
+		
+		\item They were wrote two programmes: one programme prints value of IR sensor and the second - rotate while IR emitter isn't in certain position relative to the robot.  
+		
+		\item Programme of throwing autonomuos balls into the center goal was wrote by the next algorithm: firstly robot determines the position of the center goal. If the goal is front the robot it moves on a straight line and put the balls into the goal. If the goal is sideways to the robot it turns to the goal so that robot can ride between the ramp and goal. Then robot moves on a straight line while the goal not perpendicularly to the robot. Then robot rides to the goal and puts the balls .
+		
+		\item Programme was wrote and tested. Result negative. If IR emmiter is sideways to the robot it turns then rides and doesn't stop.  
+	\end{enumerate}
+
+	\item Results:
+	\begin{enumerate}
+		\item Programme that include moving two rolling goals was wrote.
+		
+		\item The IR sensor mastered.
+		
+		\item Programme of throwing autonomous balls into the center goal wasn't wrote.
+	\end{enumerate}
+	\item Tasks for the next meetings:
+	\begin{enumerate}
+		\item To finish the programme of throwing autonomous balls into the center goal.
+		
+		\item To train on the control robot.
+	\end{enumerate}
+\end{enumerate}
+\fillpage
