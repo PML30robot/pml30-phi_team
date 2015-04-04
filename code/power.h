@@ -18,10 +18,10 @@
 #endif
 
 int OFF_POSITION = 0;
-const float KOEF_NEUTRAL_POZITION = 0.4;
+const float KOEF_NEUTRAL_POZITION = 0.2;
 bool isPowerOff = true, isResetPowerInicializate = false;
 const ubyte faultStopMotor = 2;
-const byte waitTime = 60, TernSpeed = 50;
+const byte waitTime = 70, TernSpeed = 55;
 
 bool inicializate_resetPower(const bool requirement = false){
 	if (!isResetPowerInicializate || requirement){

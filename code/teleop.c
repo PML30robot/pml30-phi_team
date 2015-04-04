@@ -1,25 +1,27 @@
 #pragma config(Hubs,  S1, HTMotor,  HTMotor,  HTMotor,  HTMotor)
-#pragma config(Hubs,  S2, HTServo,  HTServo,  none,     none)
-#pragma config(Motor,  mtr_S1_C1_1,     motorD,        tmotorTetrix, openLoop, encoder)
-#pragma config(Motor,  mtr_S1_C1_2,     motorE,        tmotorTetrix, openLoop, encoder)
-#pragma config(Motor,  mtr_S1_C2_1,     motorF,        tmotorTetrix, openLoop, encoder)
-#pragma config(Motor,  mtr_S1_C2_2,     motorG,        tmotorTetrix, openLoop, encoder)
-#pragma config(Motor,  mtr_S1_C3_1,     motorH,        tmotorTetrix, openLoop, encoder)
+#pragma config(Hubs,  S4, HTServo,  HTServo,  none,     none)
+#pragma config(Motor,  mtr_S1_C1_1,     motorD,        tmotorTetrix, openLoop, encoder) //FL
+#pragma config(Motor,  mtr_S1_C1_2,     motorE,        tmotorTetrix, openLoop, encoder) //BL
+#pragma config(Motor,  mtr_S1_C2_1,     motorF,        tmotorTetrix, openLoop, encoder) //FR
+#pragma config(Motor,  mtr_S1_C2_2,     motorG,        tmotorTetrix, openLoop, encoder) // BR
 #pragma config(Motor,  mtr_S1_C3_2,     motorI,        tmotorTetrix, openLoop, encoder)
+#pragma config(Motor,  mtr_S1_C3_1,     motorH,        tmotorTetrix, openLoop, encoder)
 #pragma config(Motor,  mtr_S1_C4_1,     motorJ,        tmotorTetrix, openLoop, encoder)
 #pragma config(Motor,  mtr_S1_C4_2,     motorK,        tmotorTetrix, openLoop, encoder)
-#pragma config(Servo,  srvo_S2_C1_1,    servo1,               tServoStandard)
-#pragma config(Servo,  srvo_S2_C1_2,    servo2,               tServoStandard)
-#pragma config(Servo,  srvo_S2_C1_3,    servo3,               tServoStandard)
-#pragma config(Servo,  srvo_S2_C1_4,    servo4,               tServoStandard)
-#pragma config(Servo,  srvo_S2_C1_5,    servo5,               tServoStandard)
-#pragma config(Servo,  srvo_S2_C1_6,    servo6,               tServoStandard)
-#pragma config(Servo,  srvo_S2_C2_1,    servo7,               tServoNone)
-#pragma config(Servo,  srvo_S2_C2_2,    servo8,               tServoNone)
-#pragma config(Servo,  srvo_S2_C2_3,    servo9,               tServoNone)
-#pragma config(Servo,  srvo_S2_C2_4,    servo10,              tServoNone)
-#pragma config(Servo,  srvo_S2_C2_5,    servo11,              tServoNone)
-#pragma config(Servo,  srvo_S2_C2_6,    servo12,              tServoNone)
+#pragma config(Servo,  srvo_S4_C1_1,    servo1,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_2,    servo2,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_3,    servo3,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_4,    servo4,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_5,    servo5,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_6,    servo6,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C2_1,    servo7,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C2_2,    servo8,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C2_3,    servo9,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C2_4,    servo10,              tServoStandard)
+#pragma config(Servo,  srvo_S4_C2_5,    servo11,              tServoStandard)
+#pragma config(Servo,  srvo_S4_C2_6,    servo12,              tServoStandard)
+
+#define teleop
 
 #include "JoystickDriver.c"
 #include "power.h"
@@ -37,18 +39,27 @@ const byte BACK_BTN = 9;
 const byte START_BTN = 10;
 const byte STICK_LEFT_BTN = 11;
 const byte STICK_RIGHT_BTN = 12;
+const byte TopHat_Forward = 0;
+const byte TopHat_Forward_Left = 1;
+const byte TopHat_Turn_Right = 2;
+const byte TopHat_Backward_Right = 3;
+const byte TopHat_Backward = 4;
+const byte TopHat_Backward_Left = 5;
+const byte TopHat_Turn_Left= 6;
+const byte TopHat_Forward_Right = 7;
+
 
 byte a = -50;
 
 void R(const byte nr) // control of right wheel pair
 {
 	motor[FR] = nr;
-	motor[BR] = nr;
+	motor[BR] = -nr;
 }
 
 void L(const byte nl)// control of left wheel pair
 {
-	motor[FL] = nl;
+	motor[FL] = -nl;
 	motor[BL] = nl;
 }
 
@@ -66,7 +77,7 @@ task Ball() // control of gripper for balls
 
 	while (true)
 	{
-   if(joy2Btn(A_BTN) > 0)
+   if(joy2Btn(Y_BTN) > 0)
    {
      a = -a;
      motor[L_BLADE] = 50 + a;
@@ -74,13 +85,18 @@ task Ball() // control of gripper for balls
      while (joy2Btn(2) > 0)
      	 wait1Msec(1);
    }
-   if (joy2Btn(Y_BTN) > 0)
+   if (joy2Btn(A_BTN) > 0)
    {
      b = -b;
      motor[L_BLADE] = -50 + b;
 		 motor[R_BLADE] = -50 + b;
      while (joy2Btn(4) > 0)
      	 wait1Msec(1);
+   }
+   while (nMotorEncoder[UL] <= 0)
+   {
+   	 motor[L_BLADE] = -100;
+   	 motor[R_BLADE] = -100;
    }
  }
 }
@@ -89,21 +105,17 @@ task Ball_side()
 {
 	waitForStart();
 
-	servo[servoBall2] = 160;
-	servo[servoBall] = 210 - servo[servoBall2];
-
 	while (true)
 	{
-		servo[servoBall] = 210 - servo[servoBall2];
 		if (joy1Btn(X_BTN) > 0)
 		{
-			servo[servoBall2] = 35;
-			servo[servoBall] = 210 - servo[servoBall2];
+			servo[servoBall2] = 60;
+			servo[servoBall] = 160;
 	  }
 		if (joy1Btn(B_BTN) > 0)
 		{
-			servo[servoBall2] = 160;
-			servo[servoBall] = 210 - servo[servoBall2];
+			servo[servoBall2] = Blade2_Open;
+			servo[servoBall] = Blade_Open;
 	  }
 	}
 }
@@ -123,7 +135,7 @@ task power_reset
 	 	}
 
 	 	if (joy1Btn(START_BTN) > 0){
-	 		ON_power();
+	 		ON_power(true);
 
 	 		while(joy1Btn(START_BTN) > 0 || joy1Btn(BACK_BTN) == 0){
 	 			wait1Msec(1);
@@ -134,90 +146,69 @@ task power_reset
 
 task MvClaw() // control of mechanism that capture rolling goals
 {
-	const byte clse = 17, opn = 50;
 
 	waitForStart();
 
   while (true)
   {
-  	servo[servoMvClaws3] = 260 - ServoValue[servoMvClaws];
   	if(joy1Btn(LB_BTN ) == 1)
   	{
-			servo[servoMvClaws] = clse;
+			servo[servoMvClawsRight] = Goal_Captured;
+			servo[servoMvClawsLeft] = abs(difference - servoValue[servoMvClawsRight]);
 		}
     if(joy1Btn(LT_BTN) == 1)
     {
-  		servo[servoMvClaws] = opn;
+  		servo[servoMvClawsRight] = Goal_Released;
+  		servo[servoMvClawsLeft] = abs(difference - servoValue[servoMvClawsRight]);
   	}
   }
 }
 
 task MvClaw2() // control of additional gripper for rolling goals
 {
-  const byte clse = 0;
-  const int opn = 140;
-
   waitForStart();
 
   while (true)
   {
   	if(joy1Btn(Y_BTN ) == 1){
-			servo[servoMvClaws2] = clse;
+			servo[servoMvClaws2] = Goal_Side_Captured;
 		}
 
     if(joy1Btn(RB_BTN) == 1){
-  		servo[servoMvClaws2] = opn;
+  		servo[servoMvClaws2] = Goal_Side_Released;
   	}
   }
 }
 
 task tube () // control of mechanism overturning the bucket
 {
-	const ubyte r2 = 155, start_val = 0;
-	byte state = 23;
-
 	waitForStart();
-
 	while(true)
 	{
   	if(joystick.joy1_y1 < -90)
   	{
-	  	servo[servoTube] = start_val;
+	  	servo[servoTubeLeft] = Bucket_Vertical;
+	  	servo[servoTubeRight] = Bucket_Vertical;
 	  }
     if(joystick.joy1_y1 > 90)
     {
-  	  servo[servoTube] = r2;
-  	}
-  	if (joy1Btn(2) > 0)
-  	{
-  		state = -state;
-  		servo[servoTube] = 122 + state;
-  		while (joy1Btn(2) > 0)
-  			wait1Msec(1);
+  	  servo[servoTubeLeft] = Bucket_Overturned;
+  	  servo[servoTubeRight] = Bucket_Overturned;
   	}
   }
 }
 
-task elevator() // control of lift
+/*task elevator() // control of lift
 {
 	waitForStart();
 
 	while(true)
 	{
-	/*if(nMotorEncoder[UL] < 0)
-	{
-		motor[UR] = -100;
-    motor[UL] = 100;
-	}
-	else*/
-	//{
-		/*if(nMotorEncoder[UL] > 25000)
-	  {
-	  	motor[UR] = 100;
-      motor[UL] = -100;
-	  }
-	  else*/
-	 // {
+			/*if(nMotorEncoder[UL] < 0)
+			{
+				motor[UR] = -100;
+    		motor[UL] = 100;
+  		}
 	    if(abs(joystick.joy1_y2) > 90 && abs(nMotorEncoder[UL]) < 15000)
 	    {
 	    	a = -50;
@@ -228,16 +219,57 @@ task elevator() // control of lift
         motor[URT] = 100 * joystick.joy1_y2 / abs(joystick.joy1_y2);
         motor[ULT] = -100 * joystick.joy1_y2 / abs(joystick.joy1_y2);
 	    }
-	    else
+	    if (joy1Btn() == 1) // 60cm
 	    {
-    		motor[UR] = 0;
-        motor[UL] = 0;
-        motor[URT] = 0;
-        motor[ULT] = 0;
-    	}
+	      wait1Msec(50);
+	      while (-nMotorEncoder[UL] < )
+	      {
+	      	motor[UR] = 100;
+	      	motor[UL] = -100;
+	      	motor[URT] = 100;
+	      	motor[ULT] = -100;
+	      }
+	    }
+	    if (joy1Btn() == 1) // 90cm
+	    {
+	      wait1Msec(50);
+	      while (-nMotorEncoder[UL] < )
+	      {
+	      	motor[UR] = 100;
+	      	motor[UL] = -100;
+	      	motor[URT] = 100;
+	      	motor[ULT] = -100;
+	      }
+	    }
+	    if (joy1Btn() == 1) // 120cm
+	    {
+	      wait1Msec(50);
+	      while (-nMotorEncoder[UL] < )
+	      {
+	      	motor[UR] = 100;
+	      	motor[UL] = -100;
+	      	motor[URT] = 100;
+	      	motor[ULT] = -100;
+	      }
+	    }
+	    if (joy1Btn() == 1) // 0cm
+	    {
+	      wait1Msec(50);
+	      while (-nMotorEncoder[UL] > 0)
+	      {
+	      	motor[UR] = -100;
+	      	motor[UL] = 100;
+	      	motor[URT] = -100;
+	      	motor[ULT] = 100;
+	      }
+	    }
+    	motor[UR] = 0;
+      motor[UL] = 0;
+      motor[URT] = 0;
+      motor[ULT] = 0;
   	//}
   }
-}
+}*/
 
 
 task  motion() // control of robot's moving
@@ -277,42 +309,42 @@ task  motion() // control of robot's moving
 	  	k = false;
 	  }
 
-	  while(joystick.joy2_TopHat == 0)
+	  while(joystick.joy2_TopHat == TopHat_Forward)
 		{
 	    R(-100 + 80 * k);
 	    L(-100 + 80 * k);
 	  }
-	  while(joystick.joy2_TopHat == 1)
+	  while(joystick.joy2_TopHat == TopHat_Forward_Left)
 		{
 	    R(0);
 	    L(-100);
 	  }
-	  while(joystick.joy2_TopHat == 2)
+	  while(joystick.joy2_TopHat == TopHat_Turn_Right)
 		{
 	    R(100 - 30 * k);
 	    L(-100 + 30 * k);
 	  }
-	  while(joystick.joy2_TopHat == 3)
+	  while(joystick.joy2_TopHat == TopHat_Backward_Right)
 		{
 		  R(100);
 	    L(0);
 	  }
-	  while(joystick.joy2_TopHat == 4)
+	  while(joystick.joy2_TopHat == TopHat_Backward)
 		{
 	    R(100 - 80 * k);
 	    L(100 - 80 * k);
 	  }
-	  while(joystick.joy2_TopHat == 5)
+	  while(joystick.joy2_TopHat == TopHat_Backward_Left)
 		{
 		  R(0);
 	    L(100);
 	  }
-	  while(joystick.joy2_TopHat == 6)
+	  while(joystick.joy2_TopHat == TopHat_Turn_Left)
 		{
 	    R(-100 + 30 * k);
 	    L(100 - 30 * k);
 	  }
-	  while(joystick.joy2_TopHat == 7)
+	  while(joystick.joy2_TopHat == TopHat_Forward_Right)
 		{
 		  R(-100);
 	    L(0);
@@ -332,18 +364,18 @@ task main()
   StartTask(MvClaw);
   StartTask(MvClaw2);
  // StartTask(Claw);
-	StartTask(Ball);
+  StartTask(Ball);
 	StartTask(Ball_side);
-	StartTask(tube);
+  StartTask(tube);
 	StartTask(motion);
-	StartTask(power_reset);
+  StartTask(power_reset);
 
-	StartTask(elevator);
+	//StartTask(elevator);
 
 	while(true)
 	{
 		getJoystickSettings(joystick);
   }
 
-  OFF_power();
+  //OFF_power();
 }

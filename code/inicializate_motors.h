@@ -28,60 +28,88 @@
 #endif
 
 #ifndef FR
-	#define FR 3
+	#define FR 5
 #endif
 
 #ifndef BR
-	#define BR 4
+	#define BR 6
 #endif
 
 #ifndef FL
-	#define FL 5
+	#define FL 7
 #endif
 
 #ifndef BL
-	#define BL 6
+	#define BL 8
 #endif
 
 #ifndef UL
-	#define UL 7
+	#define UL 9
 #endif
 
 #ifndef ULT
-	#define ULT 8
+	#define ULT 10
 #endif
 
 #ifndef UR
-	#define UR 9
+	#define UR 3
 #endif
 
 #ifndef URT
-	#define URT 10
+	#define URT 4
 #endif
 
 #ifndef servoBall
-	#define servoBall servo1
+	#define servoBall servo11
 #endif
 
-#ifndef servoTube
-	#define servoTube servo2
+#ifndef servoTubeRight
+	#define servoTubeRight servo7
 #endif
 
-#ifndef servoMvClaws
-	#define servoMvClaws servo3
+#ifndef servoTubeLeft
+	#define servoTubeLeft servo8
+#endif
+
+#ifndef servoMvClawsRight
+	#define servoMvClawsRight servo1
+#endif
+
+#ifndef servoMvClawsLeft
+	#define servoMvClawsLeft servo6
 #endif
 
 #ifndef servoMvClaws2
-	#define servoMvClaws2 servo4
-#endif
-
-#ifndef servoMvClaws3
-	#define servoMvClaws3 servo5
+	#define servoMvClaws2 servo2
 #endif
 
 #ifndef servoBall2
-	#define servoBall2 servo6
+	#define servoBall2 servo12
 #endif
+
+#define Goal_Captured 251
+#define Goal_Released 210
+#define Goal_Side_Captured 70
+#define Goal_Side_Released 230
+#define Bucket_Vertical 15
+#define Bucket_Overturned 200
+#define Blade_Open 35
+#define Blade2_Open 185
+
+#define difference 256
+
+#ifdef teleop
+	#define servoMvClawsStartValue Goal_Captured
+	#define servoBlade Blade_Open
+	#define servoBlade2 Blade2_Open
+#endif
+
+#ifdef autonom
+	#define servoMvClawsStartValue 70
+	#define servoBlade 235
+	#define servoBlade2 0
+#endif
+
 
 bool isMotorsInicializete = false;
 
@@ -98,12 +126,13 @@ bool inicializete_motors(const bool requirement = false){
 	  motor[UL] = 0;
 	  motor[URT] = 0;
 	  motor[ULT] = 0;
-		servo[servoBall] = 230;
-		servo[servoBall2] = 0;
-		servo[servoTube] = 0;
-		servo[servoMvClaws] = 70;
-		servo[servoMvClaws2] = 100;
-		servo[servoMvClaws3] = 263 - ServoValue[servoMvClaws];
+		servo[servoBall2] = servoBlade2;
+		servo[servoBall] = servoBlade;
+		servo[servoTubeRight] = Bucket_Vertical;
+		servo[servoTubeLeft] = Bucket_Vertical;
+		servo[servoMvClawsRight] = servoMvClawsStartValue;
+		servo[servoMvClawsLeft] = difference - servoValue[servoMvClawsRight];
+		servo[servoMvClaws2] = 230;
 		nMotorEncoder[FR] = 0;
 		nMotorEncoder[FL] = 0;
 		nMotorEncoder[BR] = 0;

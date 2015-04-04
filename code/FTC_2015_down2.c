@@ -1,28 +1,53 @@
+#pragma config(Hubs,  S1, HTMotor,  HTMotor,  HTMotor,  HTMotor)
+#pragma config(Hubs,  S4, HTServo,  HTServo,  none,     none)
+#pragma config(Motor,  mtr_S1_C1_1,     motorD,        tmotorTetrix, openLoop, encoder) //FL
+#pragma config(Motor,  mtr_S1_C1_2,     motorE,        tmotorTetrix, openLoop, encoder) //BL
+#pragma config(Motor,  mtr_S1_C2_1,     motorF,        tmotorTetrix, openLoop, encoder) //FR
+#pragma config(Motor,  mtr_S1_C2_2,     motorG,        tmotorTetrix, openLoop, encoder) // BR
+#pragma config(Motor,  mtr_S1_C3_2,     motorI,        tmotorTetrix, openLoop, encoder)
+#pragma config(Motor,  mtr_S1_C3_1,     motorH,        tmotorTetrix, openLoop, encoder)
+#pragma config(Motor,  mtr_S1_C4_1,     motorJ,        tmotorTetrix, openLoop, encoder)
+#pragma config(Motor,  mtr_S1_C4_2,     motorK,        tmotorTetrix, openLoop, encoder)
+#pragma config(Servo,  srvo_S4_C1_1,    servo1,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_2,    servo2,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_3,    servo3,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_4,    servo4,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_5,    servo5,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C1_6,    servo6,               tServoStandard)
+#pragma config(Servo,  srvo_S4_C2_1,    servo7,               tServoNone)
+#pragma config(Servo,  srvo_S4_C2_2,    servo8,               tServoNone)
+#pragma config(Servo,  srvo_S4_C2_3,    servo9,               tServoNone)
+#pragma config(Servo,  srvo_S4_C2_4,    servo10,              tServoNone)
+#pragma config(Servo,  srvo_S4_C2_5,    servo11,              tServoNone)
+#pragma config(Servo,  srvo_S4_C2_6,    servo12,              tServoNone)
+
+#define autonom
+
 #include "JoystickDriver.c"
 #include "power.h"
 #include "inicializate_motors.h"
 
-void L_R (const byte ii, const byte jj, const byte tt) // + forward; - backward
+void L_R (const byte ii, const byte jj, const int tt) // + forward; - backward
 {
 	motor[FR] = -jj;
-	motor[FL] = -ii;
-	motor[BR] = -jj;
+	motor[FL] = ii;
+	motor[BR] = jj;
 	motor[BL] = -ii;
 	wait1Msec(tt);
 }
 
-void L_R2 (const byte ii, const byte jj, const byte tt) // + forward; - backward
+void L_R2 (const byte ii, const byte jj, const int tt) // + forward; - backward
 {
 	motor[FR] = -jj;
-	motor[FL] = -ii;
-	motor[BR] = -jj;
+	motor[FL] = ii;
+	motor[BR] = jj;
 	motor[BL] = -ii;
 	wait1Msec(tt);
-	servo[servoMvClaws] = 17;
-	servo[servoMvClaws3] = 260 - ServoValue[servoMvClaws];
+	servo[servoMvClawsRight] = Goal_Captured;
+  servo[servoMvClawsLeft] = difference - Goal_Captured;
 	motor[FR] = -jj;
-	motor[FL] = -ii;
-	motor[BR] = -jj;
+	motor[FL] = ii;
+	motor[BR] = jj;
 	motor[BL] = -ii;
 	wait1Msec(tt);
 }
@@ -54,8 +79,8 @@ void lift (const byte pow, const unsigned short high) // control of lift by enco
 void L_R_UP (const byte i, const byte j, const byte k, const unsigned short t)
 {
 	motor[FR] = -j;
-	motor[FL] = -i;
-	motor[BR] = -j;
+	motor[FL] = i;
+	motor[BR] = j;
 	motor[BL] = -i;
 	motor[UR] = k;
 	motor[UL] = -k;
@@ -66,8 +91,9 @@ void L_R_UP (const byte i, const byte j, const byte k, const unsigned short t)
 
 void Servosetup() // initialization of servos and motors
 {
+	//inicializate_resetPower();
+	//wait10Msec(30);
 	inicializete_motors();
-	inicializate_resetPower();
 }
 
 void zero()
@@ -91,7 +117,26 @@ void motion_elevator(const unsigned int l, const unsigned int h)
 	zero();
 }
 
-void motion(const unsigned int l_ramp_goal, const byte a) // moving to rolling goal and capture it
+void LR(const byte pow, unsigned int l_ramp_goal) // moving
+{
+	nMotorEncoder[BL] = 0;
+	l_ramp_goal *= 1024 / 3.1415 * 10;
+	while(abs(nMotorEncoder[BL]) < l_ramp_goal)
+	{
+	  motor[FR] = -pow;
+	  motor[BR] = pow;
+	  motor[FL] = pow;
+	  motor[BL] = -pow;
+	  nxtDisplayBigTextLine(1, "%d", nMotorEncoder[BL]);
+  }
+
+  motor[FR] = 0;
+  motor[BR] = 0;
+  motor[FL] = 0;
+  motor[BL] = 0;
+}
+
+void motion(unsigned int l_ramp_goal, const byte a) // moving to rolling goal and capture it
 {
 	int enc;
 
@@ -100,21 +145,23 @@ void motion(const unsigned int l_ramp_goal, const byte a) // moving to rolling g
   //L_R(a * -100, a * -100, 1500);
   enc = nMotorEncoder[BL];
   nxtDisplayBigTextLine(1, "%i", enc);
+  l_ramp_goal *= 1024 / 3.1415 * 10;
 
-	while(a * nMotorEncoder[BL] < l_ramp_goal - 4096)// * 1024 /(3.1415 * 10 ))// - 50)
+	/*while(a * nMotorEncoder[BL] < l_ramp_goal - 4096)// * 1024 /(3.1415 * 10 ))// - 50)
 	{
     L_R(a * -100, a * -100, 1);
     enc = nMotorEncoder[BL];
     nxtDisplayBigTextLine(2, "%i", enc);
   }
-
-  while(a * nMotorEncoder[BL] < l_ramp_goal)
+*/
+  while(abs(nMotorEncoder[BL]) < l_ramp_goal)
 	{
     L_R(a * -20, a * -20, 1);
   }
-  servo[servoMvClaws] = 17;
-  servo[servoMvClaws3] = 243;
-  while(a * nMotorEncoder[BL] < l_ramp_goal + 500)
+  servo[servoMvClawsRight] = Goal_Captured;
+  servo[servoMvClawsLeft] = abs(difference - Goal_Captured);
+  wait10Msec(10);
+  while(abs(nMotorEncoder[BL]) < l_ramp_goal + 500)
   {
     L_R(a * -20, a * -20, 1);
   }
@@ -133,23 +180,23 @@ void elevator(const unsigned int h) // raise the bucket and overturn it
   	  UP(0, 1);
     }
   }
-
- 	while(-nMotorEncoder[UL] < h)
+ 	while(abs(nMotorEncoder[UL]) < h)
 	{
     UP(100, 1);
   }
 
   UP(0, 1);
- servoChangeRate[servoTube]=5;
-  servo[servoTube] = 245;
-  wait1Msec(2500);
+  servo[servoTubeRight] = Bucket_Overturned;
+  servo[servoTubeLeft] = Bucket_Overturned;
+  wait1Msec(500);
+	servo[servoTubeRight] = Bucket_Overturned;
+  servo[servoTubeLeft] = Bucket_Overturned;
+  wait1Msec(2000);
 
-  servo[servoTube] = 70;
+  servo[servoTubeRight] = Bucket_Vertical;
+  servo[servoTubeLeft] = Bucket_Vertical;
 
-  while(nMotorEncoder[UL] < -10)
-  {
-    UP(-100, 1);
-  }
+  L_R(20, 20, 200);
 
   UP(0, 1);
 }
@@ -162,9 +209,6 @@ void R(const unsigned int l_ramp_goal, const byte pow) // turn by right wheel pa
 	{
     L_R(0, pow, 1);
   }
-
-  motor[FR] = -pow;
-  motor[BR] = -pow;
 
   zero();
 }
@@ -179,59 +223,33 @@ void L(const unsigned int l_ramp_goal, const byte pow) // turn by left wheel pai
     nxtDisplayBigTextLine(2, "%i", nMotorEncoder[FR]);
   }
 
-  motor[FL] = pow;
-  motor[BL] = pow;
-
   zero();
 }
 
-void rotate(const unsigned int l_ramp_goal)
+void rotate_left(const unsigned int l_turn)
 {
-	wait1Msec(500);
 	nMotorEncoder[BL] = 0;
 	nMotorEncoder[FR] = 0;
-	while(nMotorEncoder[FR] < l_ramp_goal)
+	while(abs(nMotorEncoder[FR]) < l_turn)
 	{
-    L_R(-100, 50, 1);
+    L_R(-100, 100, 1);
   }
-
-  L_R(100, 100, 1);
 
   zero();
 }
 
-void rotate2(const unsigned int l_ramp_goal)
+void rotate_right(const unsigned int l_turn)
 {
-	wait1Msec(500);
-	nMotorEncoder[BL] = 0;
+	nMotorEncoder[FL] = 0;
 	nMotorEncoder[FR] = 0;
-	while(-nMotorEncoder[FR] < l_ramp_goal)
+	while(abs(nMotorEncoder[FR]) + abs(nMotorEncoder[FL]) < l_turn * 2)
 	{
-    L_R(50, -100, 1);
+    L_R(50, -50, 1);
   }
-
-  L_R(100, 100, 1);
 
   zero();
 }
 
-void LR(const byte pow, const unsigned int l_ramp_goal) // moving
-{
-	nMotorEncoder[BL] = 0;
-
-	while(abs(nMotorEncoder[BL]) < l_ramp_goal)
-	{
-	  motor[FR] = -pow;
-	  motor[BR] = -pow;
-	  motor[FL] = -pow;
-	  motor[BL] = -pow;
-  }
-
-  motor[FR] = 0;
-  motor[BR] = 0;
-  motor[FL] = 0;
-  motor[BL] = 0;
-}
 
 void TakeBall()
 {
@@ -239,47 +257,70 @@ void TakeBall()
   motor[L_BLADE] = 100;
 }
 
+task down(){
+	wait10Msec(100);
+	while(-nMotorEncoder[UL] > 10)
+  {
+    UP(-100, 1);
+  }
+  UP(0,1);
+  wait10Msec(1);
+  servo[servoBall2] = Blade2_Open;
+	servo[servoBall] = Blade_Open;
+	wait10Msec(30);
+	motor[motorB] = -100;
+	motor[motorC] = -100;
+	wait10Msec(10000);
+}
+
+task riseUp(){
+	wait1Msec(500);
+	lift(100, 3000);
+}
 
 task main()
 {
-	 Servosetup();
+	const int waitTime = 10;
+	Servosetup();
+	wait1Msec(1000);
 
 	 waitForStart();
 
-	 ON_power();
-	 wait1Msec(20);
+   servo[servoMvClawsRight] = Goal_Released;
+   servo[servoMvClawsLeft] =  difference - Goal_Released;
+   StartTask(riseUp);
 
-   servo[servoMvClaws] = 65;
-   servo[servoMvClaws3] = 195;
+   LR(-50, 305);//go to 30cm goal
+   L_R2(-20,-20, 500);
+   lift(-20, 3000);  //  to 30cm goal}
+   servo[servoMvClawsRight] = Goal_Captured;
+   servo[servoMvClawsLeft] = difference - Goal_Captured;
+   wait1Msec(500);
 
-   LR(-50, 2500); // go to space near the ramp
-   //rotate(1200); // rotate to 30cm goal
-   LR(-50, 9600);//go to 30cm goal
-   servo[servoMvClaws] = 17;
-   servo[servoMvClaws3] = 243;
-   lift(100, 3000); //{ put
-   L_R2(-20,-20, 500); // the ball
-   lift(-20, 3000); //  to 30cm goal}
-   servo[servoMvClaws] = 17;
-   servo[servoMvClaws3] = 243;
+   LR(50, 43); // go back with the 30cm goal
+   wait10Msec(waitTime);
+   servo[servoMvClawsRight] = Goal_Released;
+   servo[servoMvClawsLeft] = difference -  Goal_Released; // release the 30cm goal
    wait1Msec(500);
-   LR(50, 1024); // go back with the 30cm goal
-   servo[servoMvClaws] = 80;// release the 30cm goal
-   servo[servoMvClaws3] = 180;
-   wait1Msec(500);
-   LR(50, 1320); // go back from the 30cm goal
-   R(1900, -50); // rotate to 90cm goal
-   LR(-50, 1200); // ride to 90cm goal and stop near the 30cm goal
-   servo[servoMvClaws2] = 0;
+
+   LR(50, 38); // go back from the 30cm goal
+   wait10Msec(waitTime);
+   rotate_right(500); // rotate to 90cm goal
+   wait10Msec(10);
+   LR(-50, 65); // ride to 90cm goal and stop near the 30cm goal
+   servo[servoMvClaws2] = Goal_Side_Captured;
    wait1Msec(500);//capture to 30cm goal
-   motion(1200, 1); // ride and capture to 90cm goal
-   elevator(8500); // put the ball to 90cm goal
-   TakeBall();
+   L_R2(-20, -20, 1500); // ride and capture to 90cm goal
+   wait10Msec(10);
 
-   R(3500, 50); // rotate to parking zone
-  // wait1Msec(5000);
-   motion(11700,-1); // go to the parking zone
-   R(7000, 50); // rotate in the parking zone
+   rotate_left(530); // rotate to parking zone
+   LR(20, 9);
+   L_R2(-20,-20, 250);
+   elevator(8500); // put the ball to 90cm goal
+   //StartTask(down);
+   wait10Msec(10);
+   LR(100, 305); // go to the parking zone
+   rotate_left(500); // rotate in the parking zone
 
    //elevator();
    //rotate(1000);
@@ -298,7 +339,7 @@ task main()
     motor[URT] = 0;
     motor[ULT] = 0;
 
-    OFF_power();
+    //OFF_power();
 
     while(true){
     	wait10Msec(10);
