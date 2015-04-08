@@ -2,6 +2,8 @@
 
 \usepackage{ucs}
 \usepackage{graphicx}
+\usepackage{verbatim}
+\usepackage{anyfontsize}
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc} 
 \usepackage[russian]{babel}
@@ -31,27 +33,31 @@
 \renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
 \renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}.}
 \pagestyle{fancy}
+{
 \fancyhead{}
 \fancyhead[C]{PML30 Saint-Petersburg}
 \fancyfoot{}
 \fancyfoot[R]{\thepage}
 \fancyfoot[C]{Russia, St. Petersburg, Physics-Mathematics Lyceum №30. 2014-2015}
-
+}
 
 
 \begin{document}
 
 	
-
 	\input{days/Title/Title}
-	\input{days/Team/Team}
+
 	
 	\tableofcontents{}
 	\newpage
-	
+
+	\input{days/Team/Team}
+	\input{days/Events/Events}
+
 	\input{days/Beginning/Beginning}
-	%\input{days/Materials/Materials}
+	\input{days/Materials/Materials}
 	%\input{days/Dictionary/Dictionary}
+
 	
 	\input{days/29.09.14/29.09.14}
 	
@@ -73,6 +79,7 @@
 	\input{days/25.10.14/25.10.14}
 	\input{days/27.10.14/27.10.14}
 	\input{days/28.10.14/28.10.14}	
+
 	\input{days/01.11.14/01.11.14}
 	\input{days/03.11.14/03.11.14}
 	\input{days/04.11.14/04.11.14}
@@ -108,6 +115,7 @@
 	\input{days/22.12.14/22.12.14}
 	\input{days/24.12.14/24.12.14}
 	\input{days/27.12.14/27.12.14}	
+	
 	\input{days/07.01.15/07.01.15}
 	\input{days/08.01.15/08.01.15}
 	\input{days/09.01.15/09.01.15}
@@ -153,18 +161,10 @@
 	\input{days/19.03.15/19.03.15}
 	\input{days/20.03.15/20.03.15}
 	\input{days/21.03.15/21.03.15}
-	\input{days/24.03.15/24.03.15}
-	\input{days/25.03.15/25.03.15}
-	\input{days/26.03.15/26.03.15}
-	\input{days/27.03.15/27.03.15}
-	\input{days/28.03.15/28.03.15}
-	
-	\input{days/01.04.15/01.04.15}
-	\input{days/02.04.15/02.04.15}
-	\input{days/03.04.15/03.04.15}
-	\input{days/04.04.15/04.04.15}
 	
 	\input{days/Thanks_for_sponsors/Thanks_for_sponsors}
-	\input{days/addition1/addition1}
+
+	\input{days/Key_summary/Key_summary}
+	%\input{days/addition1/addition1}
 	
 \end{document}
